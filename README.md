@@ -11,7 +11,7 @@
 <div align="left"
 <br><br>
 
-<p align="center"><img src="https://profile-counter.glitch.me/{IRIS-MD}/count.svg" alt="V-E-N-O-X :: Visitor's Count" /></p>
+<p align="center"><img src="https://profile-counter.glitch.me/{QUEEN-NEZUKO-}/count.svg" alt="godzenitsu :: Visitor's Count" /></p>
 
   
 ## sᴇᴛᴜᴘ
