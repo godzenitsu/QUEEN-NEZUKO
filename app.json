@@ -29,12 +29,12 @@
     "SUDO": {
       "description": "Enter Numbers With Country Code Without + Separated With , To Add More Numbers",
       "required": true,
-      "value": "8801975492880"
+      "value": "917907387121"
     },
     "INFO": {
       "description": "Enter the Type of pic & ownername & botname u want",
       "required": false,
-      "value": "ɪʀɪꜱ-ᴍᴅ;VᴇɴᴏxSᴇʀ;https://imgur.com/D60nScQ.jpg"
+      "value": "ɴᴇᴢᴜᴋᴏ-ᴍᴅ;ᴢᴇɴɪᴛꜱᴜʜʜ;https://graph.org/file/3879cf1910f65bd8457d7.jpg"
     },
     "AUTO_STATUS_VIEW": {
       "description": "true or false",
