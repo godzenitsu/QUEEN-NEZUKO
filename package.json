@@ -1,0 +1,57 @@
+{
+  "name": "QUEEN-NEZUKO-",
+  "version": "1.2.7",
+  "description": "Lightweight whatsapp bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start . --attach --name QUEEN-NEZUKO-"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godzenitsu/QUEEN-NEZUKO-.git"
+  },
+  "keywords": [
+    "bot",
+    "whatsapp"
+  ],
+  "author": "ZENITSUHH",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "@viper-x/fancytext": "^1.0.2",
+    "@whiskeysockets/baileys": "^6.6.0",
+    "acrcloud": "^1.4.0",
+    "axios": "^1.2.2",
+    "browser-id3-writer": "^4.4.0",
+    "canvacord": "^5.4.10",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fakeyou.js": "^1.1.1",
+    "file-type": "^16.5.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "^0.0.1-security",
+    "g-i-s": "^2.1.7",
+    "got": "^11.8.2",
+    "google-tts-api": "^2.0.2",
+    "heroku-client": "^3.1.0",
+    "imgur": "2.3.0",
+    "jimp": "^0.16.13",
+    "node-cron": "^3.0.0",
+    "node-fetch": "^2.0.0",
+    "node-id3": "^0.2.6",
+    "node-webpmux": "^3.1.7",
+    "path": "^0.12.7",
+    "pino": "^8.15.6",
+    "pg": "^8.11.3",
+    "pm2": "^5.3.0",
+    "qrcode-terminal": "^0.12.0",
+    "sequelize": "^6.23.0",
+    "spinnies": "^0.5.1",
+    "simple-git": "^2.37.0",
+    "sqlite3": "^5.1.6",
+    "supervisor": "^0.12.0",
+    "youtubedl-core": "^4.11.7",
+    "yt-search": "^2.10.4"
+  }
+}
