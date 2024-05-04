@@ -48,8 +48,9 @@ godzenitsu/QUEEN-NEZUKO-' target="_blank"><img alt='DEPLOY' src='https://img.shi
 
 ### sᴜᴘᴘᴏʀᴛ ᴍᴇ
 
-<a href="https://www.instagram.com/whoois.zenitsu"><img alt="INSTAGRAM" src="https://img.shields.io/badge/-INSTAGRAM-white?style=for-the-badge&logo=instagram&logoColor=black"/></a>
-<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.buymeacoffee.com/">
+  <img src="https://i.ibb.co/KNnhcvX/bmc-button.png" alt="Buy Me Coffee" height="40" width="150" style="margin-left: 60px;">
+</a>
 
   ### ᴛʜᴀɴᴋs ᴛᴏ
 - [LOKI❤️](https://github.com/Loki-Xer) <br>
