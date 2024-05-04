@@ -48,7 +48,7 @@ godzenitsu/QUEEN-NEZUKO-' target="_blank"><img alt='DEPLOY' src='https://img.shi
 
 ### sᴜᴘᴘᴏʀᴛ ᴍᴇ
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.buymeacoffee.com/">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.buymeacoffee.com/safeershafo">
   <img src="https://i.ibb.co/KNnhcvX/bmc-button.png" alt="Buy Me Coffee" height="40" width="150" style="margin-left: 60px;">
 </a>
 
