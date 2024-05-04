@@ -50,6 +50,11 @@
       "description": "Enter Your Mode Type public For Public Otherwise Type private",
       "required": false,
       "value": "public"
+    },
+    "STICKER_DATA": {
+      "description": "STICKER_DATA",
+      "required": false,
+      "value": "ɴᴇᴢᴜᴋᴏ;ᴢᴇɴɪᴛꜱᴜʜʜʜ🌈"
     }
   },
   "buildpacks": [
