@@ -42,7 +42,7 @@ iris(
             quoted: m
         })
         try {
-            const res = await axios.get(`https://api.maher-zubair.tech/download/instagram?url=${args}`)
+            const res = await axios.get(`https://api.lokiser.xyz/download/insta?url=${args}`)
             let response = await res.data
             for (let i of response.data) {
                 await m.sendMsg(m.jid, i.url, { quoted : m }, i.type)
@@ -119,7 +119,7 @@ iris(
                 amount] = args.split(",");
             let result = await gimage(query, amount);
             await m.reply(
-                `_Downloading ${amount || 5} images for ${query}_`
+                `_Downloading ${amount || 3} images for ${query}_`
             );
             for (let i of result) {
                 await m.sendMsg(m.jid , i, {}, "image")
