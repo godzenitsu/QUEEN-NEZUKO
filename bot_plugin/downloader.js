@@ -42,7 +42,7 @@ iris(
             quoted: m
         })
         try {
-            const res = await axios.get(`https://api.lokiser.xyz/download/insta?url=${args}`)
+            const res = await axios.get(`https://api-ironman444ff.koyeb.app/ironman/insta?url=${match}`)
             let response = await res.data
             for (let i of response.data) {
                 await m.sendMsg(m.jid, i.url, { quoted : m }, i.type)
