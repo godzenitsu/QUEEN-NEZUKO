@@ -1,5 +1,5 @@
 const {
-    iris,
+    nezuko,
     commands,
     isPublic
 } = require("../lib/commands.js");
@@ -24,7 +24,7 @@ const {
 
 
 
-iris(
+nezuko(
     {
         name: "insta",
         fromMe: isPublic,
@@ -42,7 +42,7 @@ iris(
             quoted: m
         })
         try {
-            const res = await axios.get(`https://api-ironman444ff.koyeb.app/ironman/insta?url=${match}`)
+            const res = await axios.get(`https://api.maher-zubair.tech/download/instagram?url=${args}`)
             let response = await res.data
             for (let i of response.data) {
                 await m.sendMsg(m.jid, i.url, { quoted : m }, i.type)
@@ -88,7 +88,7 @@ iris(
     }
 );
 
-iris(
+nezuko(
     {
         name: "image",
         fromMe: isPublic,
@@ -119,7 +119,7 @@ iris(
                 amount] = args.split(",");
             let result = await gimage(query, amount);
             await m.reply(
-                `_Downloading ${amount || 3} images for ${query}_`
+                `_Downloading ${amount || 5} images for ${query}_`
             );
             for (let i of result) {
                 await m.sendMsg(m.jid , i, {}, "image")
@@ -132,7 +132,7 @@ iris(
 );
 
 
-iris(
+nezuko(
     {
         name: "gdrive",
         fromMe: isPublic,
@@ -150,7 +150,7 @@ var document= await fetch(`https://api.maher-zubair.tech/download/gdrive?url=${a
     }
     );
 
-iris(
+nezuko(
     {
         name: "mediafire",
         fromMe: isPublic,
@@ -169,7 +169,7 @@ var document= await fetch(`https://api.maher-zubair.tech/download/mediafire?url=
     );
 
 
-iris(
+nezuko(
     {
         name: "xvdl",
         fromMe: isPublic,
@@ -185,12 +185,12 @@ m.reply("_Downloading..._")
 let xvdl = await fetch(`https://api-aswin-sparky.koyeb.app/api/downloader/xdl?url=${args}`);
 var data = await xvdl.json();
 
-  client.sendMessage(m.jid, { video :{ url: data.data }, caption: "ehehehe" }, {quoted: m })
+  client.sendMessage(m.jid, { video :{ url: data.data }, caption: "𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨" }, {quoted: m })
     }
   );
 
 
-iris(
+nezuko(
     {
         name: "ytv",
         fromMe: isPublic,
@@ -203,12 +203,12 @@ iris(
         args = args || m.quoted?.text;
 if (!args) return await m.reply("_Reply to a link_");
 let dll = `https://api-viper-x.koyeb.app/api/ytdl?video360p=${args}`
-client.sendMessage(m.jid, { video :{ url: dll }, caption: "Qᴜᴇᴇɴ-Nᴇᴢᴜᴋᴏ🦋"}, {quoted: m })
+client.sendMessage(m.jid, { video :{ url: dll }, caption: "_𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨_"}, {quoted: m })
     }
     );
 
 
-iris(
+nezuko(
     {
         name: "song",
         fromMe: isPublic,
