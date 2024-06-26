@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pm2 start . --attach --name QUEEN-NEZUKO-"
+    "start": "pm2 start . --attach --name nezuko-md"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   "dependencies": {
     "@types/node": "^18.0.6",
     "@viper-x/fancytext": "^1.0.2",
-    "@whiskeysockets/baileys": "^6.6.0",
+    "@whiskeysockets/baileys":  "git+https://github.com/A-d-i-t-h-y-a-n/Baileys.js.git",
     "acrcloud": "^1.4.0",
     "axios": "^1.2.2",
     "browser-id3-writer": "^4.4.0",
