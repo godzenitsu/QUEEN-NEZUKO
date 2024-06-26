@@ -1,1 +1,251 @@
-const _0x1e22ac=_0x15a8;function _0x15a8(_0x3fd498,_0x2d3694){const _0x59ad56=_0x199b();return _0x15a8=function(_0x4f6632,_0x3ccfcc){_0x4f6632=_0x4f6632-0x155;let _0x199bc6=_0x59ad56[_0x4f6632];return _0x199bc6;},_0x15a8(_0x3fd498,_0x2d3694);}(function(_0x3d3869,_0x94c52e){const _0xf03de2=_0x15a8,_0xa63914=_0x3d3869();while(!![]){try{const _0x59239e=parseInt(_0xf03de2(0x180))/0x1+-parseInt(_0xf03de2(0x185))/0x2*(-parseInt(_0xf03de2(0x194))/0x3)+-parseInt(_0xf03de2(0x16a))/0x4+parseInt(_0xf03de2(0x161))/0x5+-parseInt(_0xf03de2(0x18e))/0x6+-parseInt(_0xf03de2(0x16c))/0x7*(-parseInt(_0xf03de2(0x179))/0x8)+-parseInt(_0xf03de2(0x192))/0x9;if(_0x59239e===_0x94c52e)break;else _0xa63914['push'](_0xa63914['shift']());}catch(_0xb81f85){_0xa63914['push'](_0xa63914['shift']());}}}(_0x199b,0x8eda8));function _0x199b(){const _0x41e448=['audio\x20in\x20wave\x20format','fakeyou.js','barishvb-8','search','_Loading..._','split','9632CbUizc','audio/mpeg','imageMessage','node-fetch','(((.+)+)+)+$','../lib/functions.js','TR:p1921zb51ha60mbp4zbqtgyftcnn6','490991YOxXfT','mp3','from','convert\x20a\x20document\x20video\x20to\x20normal\x20video','_Converting..._','77906BteCgm','.mp3','converter','tts','reply\x20to\x20a\x20sticker/audio','audio','_Enter\x20Query!_','stickerMessage','image/jpeg','2154876lRsQVG','wave','message','convert\x20a\x20document\x20image\x20to\x20normal\x20image','6457059xayqTO','documentMessage','81BBsISc','sticker','sendMsg','download','_Reply\x20to\x20voice\x20or\x20video_','floor','getAudioUrl','audioMessage','INFO','sendMessage','text\x20to\x20speech','_Reply\x20to\x20Audio\x20Message_','quoted','909950isUjLe','../info.js','reply','_Please\x20Wait\x202\x20secs...._','give\x20custom\x20captions','black','toString','jid','../lib/commands.js','362716VwDGgR','video','161QRjbUv','videoMessage','tomp4','constructor','video/mp4','Client','https://translate.google.com'];_0x199b=function(){return _0x41e448;};return _0x199b();}const _0x3ccfcc=(function(){let _0x12e4f0=!![];return function(_0x21a620,_0x1de63a){const _0x540b6b=_0x12e4f0?function(){if(_0x1de63a){const _0x67533c=_0x1de63a['apply'](_0x21a620,arguments);return _0x1de63a=null,_0x67533c;}}:function(){};return _0x12e4f0=![],_0x540b6b;};}()),_0x4f6632=_0x3ccfcc(this,function(){const _0x3769ac=_0x15a8;return _0x4f6632[_0x3769ac(0x167)]()['search'](_0x3769ac(0x17d))[_0x3769ac(0x167)]()[_0x3769ac(0x16f)](_0x4f6632)[_0x3769ac(0x176)](_0x3769ac(0x17d));});_0x4f6632();const {iris,commands,isPublic}=require(_0x1e22ac(0x169)),googleTTS=require('google-tts-api'),FakeYou=require(_0x1e22ac(0x174)),fetch=require(_0x1e22ac(0x17c)),info=require('../info.js'),{STICKER_DATA}=require(_0x1e22ac(0x162)),fy=new FakeYou[(_0x1e22ac(0x171))]({'token':_0x1e22ac(0x17f),'usernameOrEmail':'vbcoc18@gmail.com','password':_0x1e22ac(0x175)}),{toAudio,AudioData,toVideo}=require(_0x1e22ac(0x17e));iris({'name':'sticker','fromMe':isPublic,'desc':'Converts\x20an\x20image\x20to\x20sticker','category':_0x1e22ac(0x187)},async({m:_0x113903,client:_0x3f7451,args:_0x2385e1})=>{const _0x342231=_0x1e22ac;if(!_0x113903[_0x342231(0x160)]||!(_0x113903[_0x342231(0x160)][_0x342231(0x190)][_0x342231(0x17b)]||_0x113903['quoted'][_0x342231(0x190)][_0x342231(0x16d)]||_0x113903[_0x342231(0x160)][_0x342231(0x190)][_0x342231(0x18c)]))return await _0x113903[_0x342231(0x163)]('_Reply\x20to\x20photo\x20or\x20video_');if(_0x2385e1){let [_0x3a55bf,_0x59f5e3]=_0x2385e1[_0x342231(0x178)](','),_0x223136=await _0x113903[_0x342231(0x160)]['download']();_0x113903['sendMsg'](_0x113903[_0x342231(0x168)],_0x223136,{'packname':_0x3a55bf||'','author':_0x59f5e3||'','quoted':_0x113903},_0x342231(0x155));}else{let _0x4f77a1=await _0x113903[_0x342231(0x160)]['download']();_0x113903['sendMsg'](_0x113903[_0x342231(0x168)],_0x4f77a1,{'packname':''+STICKER_DATA['split'](';')[0x0],'author':''+STICKER_DATA[_0x342231(0x178)](';')[0x1],'quoted':_0x113903},_0x342231(0x155));}}),iris({'name':_0x1e22ac(0x181),'fromMe':isPublic,'desc':'Converts\x20an\x20Video/Voice\x20to\x20Mp3','category':_0x1e22ac(0x187)},async({m:_0x26052b,client:_0x4a929e,args:_0x1a937b})=>{const _0x717530=_0x1e22ac;if(!_0x26052b[_0x717530(0x160)]||!(_0x26052b['quoted'][_0x717530(0x190)][_0x717530(0x15b)]||_0x26052b[_0x717530(0x160)]['message'][_0x717530(0x16d)]))return await _0x26052b[_0x717530(0x163)](_0x717530(0x158));let _0x151d2f=await _0x26052b[_0x717530(0x160)][_0x717530(0x157)]();return _0x26052b[_0x717530(0x156)](_0x26052b[_0x717530(0x168)],_0x151d2f,{'mimetype':_0x717530(0x17a)},_0x717530(0x18a));}),iris({'name':'tts','fromMe':isPublic,'category':'converter','desc':_0x1e22ac(0x15e)},async({m:_0x372908,client:_0x50d2fa,args:_0x13a703})=>{const _0x122ce3=_0x1e22ac;if(!_0x13a703)_0x372908[_0x122ce3(0x163)](_0x122ce3(0x18b));else{let [_0x16b38f,_0xcf0653]=_0x13a703[_0x122ce3(0x178)]`:`;const _0x22c189=googleTTS[_0x122ce3(0x15a)](''+_0x16b38f,{'lang':_0xcf0653||'ml','slow':![],'host':_0x122ce3(0x172)});_0x50d2fa[_0x122ce3(0x15d)](_0x372908['jid'],{'audio':{'url':_0x22c189},'mimetype':_0x122ce3(0x17a),'ptt':!![],'fileName':_0x122ce3(0x188)+_0x122ce3(0x186)},{'quoted':_0x372908});}}),iris({'name':_0x1e22ac(0x18f),'fromMe':isPublic,'category':_0x1e22ac(0x187),'desc':_0x1e22ac(0x173)},async({m:_0x55fd5c,client:_0x304c01,args:_0x5829fc})=>{const _0x4274bd=_0x1e22ac;if(!_0x55fd5c['quoted']||!(_0x55fd5c[_0x4274bd(0x160)][_0x4274bd(0x190)][_0x4274bd(0x15b)]||_0x55fd5c[_0x4274bd(0x160)][_0x4274bd(0x190)]['documentMessage']))return await _0x55fd5c['reply']('_Reply\x20to\x20Audio\x20Message_');let _0x1c0168=await _0x55fd5c[_0x4274bd(0x160)][_0x4274bd(0x157)]();_0x55fd5c['sendMsg'](_0x55fd5c['jid'],_0x1c0168,{'audiowave':Array[_0x4274bd(0x182)]({'length':0x1e},()=>Math[_0x4274bd(0x159)](Math['random']()*0x64)),'ptt':!![],'mimetype':_0x4274bd(0x17a)},'audio');}),iris({'name':_0x1e22ac(0x16e),'fromMe':isPublic,'category':_0x1e22ac(0x187),'desc':_0x1e22ac(0x183)},async({m:_0x3a81f6,client:_0x50cb31,args:_0xcb91fb})=>{const _0x175ae2=_0x1e22ac;if(!_0x3a81f6['quoted']||!(_0x3a81f6[_0x175ae2(0x160)][_0x175ae2(0x190)][_0x175ae2(0x16d)]||_0x3a81f6[_0x175ae2(0x160)]['message'][_0x175ae2(0x193)]))return await _0x3a81f6[_0x175ae2(0x163)]('_Reply\x20to\x20a\x20video_');await _0x3a81f6[_0x175ae2(0x163)](_0x175ae2(0x177));let _0x3b0e01=await _0x3a81f6[_0x175ae2(0x160)][_0x175ae2(0x157)]();_0x50cb31[_0x175ae2(0x15d)](_0x3a81f6[_0x175ae2(0x168)],{'video':_0x3b0e01});}),iris({'name':'toimage','fromMe':isPublic,'category':_0x1e22ac(0x187),'desc':_0x1e22ac(0x191)},async({m:_0x2d2d7e,client:_0x36a500,args:_0x5e07af})=>{const _0x4df7b8=_0x1e22ac;if(!_0x2d2d7e['quoted']||!(_0x2d2d7e[_0x4df7b8(0x160)]['message'][_0x4df7b8(0x17b)]||_0x2d2d7e['quoted'][_0x4df7b8(0x190)][_0x4df7b8(0x193)]))return await _0x2d2d7e['reply']('_Reply\x20to\x20an\x20image_');await _0x2d2d7e[_0x4df7b8(0x163)](_0x4df7b8(0x184));let _0xfb01b1=await _0x2d2d7e[_0x4df7b8(0x160)][_0x4df7b8(0x157)]();_0x36a500['sendMessage'](_0x2d2d7e[_0x4df7b8(0x168)],{'image':_0xfb01b1});}),iris({'name':'caption','fromMe':isPublic,'category':_0x1e22ac(0x187),'desc':'give\x20custom\x20captions'},async({m:_0x1fffac,client:_0x35c4ed,args:_0x43545})=>{const _0x67c824=_0x1e22ac;if(!_0x1fffac[_0x67c824(0x160)]||!(_0x1fffac[_0x67c824(0x160)]['message'][_0x67c824(0x17b)]||_0x1fffac[_0x67c824(0x160)]['message'][_0x67c824(0x16d)]||_0x1fffac[_0x67c824(0x160)][_0x67c824(0x190)][_0x67c824(0x193)]))return await _0x1fffac[_0x67c824(0x163)]('_Reply\x20to\x20photo\x20or\x20video_');await _0x1fffac['reply'](_0x67c824(0x164));let _0x300de0=await _0x1fffac[_0x67c824(0x160)]['download']();if(_0x1fffac['quoted'][_0x67c824(0x190)]['videoMessage'])await _0x35c4ed[_0x67c824(0x15d)](_0x1fffac[_0x67c824(0x168)],{'video':_0x300de0,'mimetype':_0x67c824(0x170),'caption':_0x43545},{'quoted':_0x1fffac});else _0x1fffac[_0x67c824(0x160)][_0x67c824(0x190)][_0x67c824(0x17b)]&&await _0x35c4ed[_0x67c824(0x15d)](_0x1fffac[_0x67c824(0x168)],{'image':_0x300de0,'mimetype':_0x67c824(0x18d),'caption':_0x43545},{'quoted':_0x1fffac});}),iris({'name':'take','fromMe':isPublic,'category':_0x1e22ac(0x187),'desc':'give\x20custom\x20captions'},async({m:_0x1d1d5e,client:_0x3bfa7a,args:_0x8fa8d})=>{const _0xd8431d=_0x1e22ac;if(!_0x1d1d5e['quoted'][_0xd8431d(0x190)]['stickerMessage']&&!_0x1d1d5e[_0xd8431d(0x160)][_0xd8431d(0x190)][_0xd8431d(0x15b)]&&!_0x1d1d5e[_0xd8431d(0x160)]['message'][_0xd8431d(0x17b)]&&!_0x1d1d5e[_0xd8431d(0x160)][_0xd8431d(0x190)][_0xd8431d(0x16d)])return _0x1d1d5e[_0xd8431d(0x163)](_0xd8431d(0x189));if(_0x1d1d5e[_0xd8431d(0x160)][_0xd8431d(0x190)]['stickerMessage']||_0x1d1d5e[_0xd8431d(0x160)][_0xd8431d(0x190)]['imageMessage']||_0x1d1d5e[_0xd8431d(0x160)][_0xd8431d(0x190)][_0xd8431d(0x16d)]){_0x8fa8d=_0x8fa8d||info['STICKER_DATA'];let _0x232697=await _0x1d1d5e[_0xd8431d(0x160)]['download']();return await _0x1d1d5e[_0xd8431d(0x156)](_0x1d1d5e[_0xd8431d(0x168)],_0x232697,{'packname':_0x8fa8d[_0xd8431d(0x178)](/[|,;]/)[0x0]||_0x8fa8d,'author':_0x8fa8d[_0xd8431d(0x178)](/[|,;]/)[0x1]},_0xd8431d(0x155));}else{if(_0x1d1d5e[_0xd8431d(0x160)][_0xd8431d(0x190)]['audioMessage']){const _0x233519={'title':_0x8fa8d?_0x8fa8d[_0xd8431d(0x178)](/[|,;]/)?_0x8fa8d[_0xd8431d(0x178)](/[|,;]/)[0x0]:_0x8fa8d:info['INFO'][_0xd8431d(0x178)](/[|,;]/)[0x0]?info[_0xd8431d(0x15c)][_0xd8431d(0x178)](/[|,;]/)[0x0]:info[_0xd8431d(0x15c)],'body':_0x8fa8d?_0x8fa8d[_0xd8431d(0x178)](/[|,;]/)[0x1]:info[_0xd8431d(0x15c)]['split'](/[|,;]/)[0x1],'image':_0x8fa8d&&_0x8fa8d[_0xd8431d(0x178)](/[|,;]/)[0x2]?_0x8fa8d[_0xd8431d(0x178)](/[|,;]/)[0x2]:info['INFO'][_0xd8431d(0x178)](/[|,;]/)[0x2]},_0x17f025=await AudioData(await toAudio(await _0x1d1d5e[_0xd8431d(0x160)][_0xd8431d(0x157)]()),_0x233519);return await _0x1d1d5e[_0xd8431d(0x156)](_0x1d1d5e[_0xd8431d(0x168)],_0x17f025,{'mimetype':_0xd8431d(0x17a)},_0xd8431d(0x18a));}}}),iris({'name':_0x1e22ac(0x166),'fromMe':isPublic,'category':_0x1e22ac(0x187),'desc':_0x1e22ac(0x165)},async({m:_0x1de64f,client:_0x5d4c6b,args:_0x34a06e})=>{const _0x57c493=_0x1e22ac;if(!_0x1de64f[_0x57c493(0x160)]||!(_0x1de64f[_0x57c493(0x160)][_0x57c493(0x190)][_0x57c493(0x15b)]||_0x1de64f['quoted'][_0x57c493(0x190)][_0x57c493(0x193)]))return await _0x1de64f[_0x57c493(0x163)](_0x57c493(0x15f));let _0x544da8=await _0x1de64f[_0x57c493(0x160)][_0x57c493(0x157)]();const _0x4a26f6=await toVideo(_0x544da8);_0x1de64f[_0x57c493(0x156)](_0x1de64f[_0x57c493(0x168)],_0x4a26f6,{},_0x57c493(0x16b));});
+const _0x3ccfcc = function () {
+  let _0x12e4f0 = true;
+  return function (_0x21a620, _0x1de63a) {
+    const _0x540b6b = _0x12e4f0 ? function () {
+      if (_0x1de63a) {
+        const _0x67533c = _0x1de63a.apply(_0x21a620, arguments);
+        _0x1de63a = null;
+        return _0x67533c;
+      }
+    } : function () {};
+    _0x12e4f0 = false;
+    return _0x540b6b;
+  };
+}();
+const _0x4f6632 = _0x3ccfcc(this, function () {
+  return _0x4f6632.toString().search("(((.+)+)+)+$").toString().constructor(_0x4f6632).search("(((.+)+)+)+$");
+});
+_0x4f6632();
+const googleTTS = require('google-tts-api');
+const info = require('../info.js');
+const {
+  STICKER_DATA
+} = require("../info.js");
+const {
+  toAudio,
+  AudioData,
+  toVideo
+} = require("../lib/functions.js");
+nezuko({
+  'name': 'sticker',
+  'fromMe': isPublic,
+  'desc': "Converts an image to sticker",
+  'category': "converter"
+}, async ({
+  m: _0x113903,
+  client: _0x3f7451,
+  args: _0x2385e1
+}) => {
+  if (!_0x113903.quoted || !(_0x113903.quoted.message.imageMessage || _0x113903.quoted.message.videoMessage || _0x113903.quoted.message.stickerMessage)) {
+    return await _0x113903.reply("_Reply to photo or video_");
+  }
+  if (_0x2385e1) {
+    let [_0x3a55bf, _0x59f5e3] = _0x2385e1.split(',');
+    let _0x223136 = await _0x113903.quoted.download();
+    _0x113903.sendMsg(_0x113903.jid, _0x223136, {
+      'packname': _0x3a55bf || '',
+      'author': _0x59f5e3 || '',
+      'quoted': _0x113903
+    }, "sticker");
+  } else {
+    let _0x4f77a1 = await _0x113903.quoted.download();
+    _0x113903.sendMsg(_0x113903.jid, _0x4f77a1, {
+      'packname': '' + STICKER_DATA.split(';')[0x0],
+      'author': '' + STICKER_DATA.split(';')[0x1],
+      'quoted': _0x113903
+    }, "sticker");
+  }
+});
+nezuko({
+  'name': "mp3",
+  'fromMe': isPublic,
+  'desc': "Converts an Video/Voice to Mp3",
+  'category': "converter"
+}, async ({
+  m: _0x26052b,
+  client: _0x4a929e,
+  args: _0x1a937b
+}) => {
+  if (!_0x26052b.quoted || !(_0x26052b.quoted.message.audioMessage || _0x26052b.quoted.message.videoMessage)) {
+    return await _0x26052b.reply("_Reply to voice or video_");
+  }
+  let _0x151d2f = await _0x26052b.quoted.download();
+  return _0x26052b.sendMsg(_0x26052b.jid, _0x151d2f, {
+    'mimetype': "audio/mpeg"
+  }, "audio");
+});
+nezuko({
+  'name': 'tts',
+  'fromMe': isPublic,
+  'category': 'converter',
+  'desc': "text to speech"
+}, async ({
+  m: _0x372908,
+  client: _0x50d2fa,
+  args: _0x13a703
+}) => {
+  if (!_0x13a703) {
+    _0x372908.reply("_Enter Query!_");
+  } else {
+    let [_0x16b38f, _0xcf0653] = _0x13a703.split`:`;
+    const _0x22c189 = googleTTS.getAudioUrl('' + _0x16b38f, {
+      'lang': _0xcf0653 || 'ml',
+      'slow': false,
+      'host': "https://translate.google.com"
+    });
+    _0x50d2fa.sendMessage(_0x372908.jid, {
+      'audio': {
+        'url': _0x22c189
+      },
+      'mimetype': "audio/mpeg",
+      'ptt': true,
+      'fileName': "tts.mp3"
+    }, {
+      'quoted': _0x372908
+    });
+  }
+});
+nezuko({
+  'name': "wave",
+  'fromMe': isPublic,
+  'category': "converter",
+  'desc': "audio in wave format"
+}, async ({
+  m: _0x55fd5c,
+  client: _0x304c01,
+  args: _0x5829fc
+}) => {
+  if (!_0x55fd5c.quoted || !(_0x55fd5c.quoted.message.audioMessage || _0x55fd5c.quoted.message.documentMessage)) {
+    return await _0x55fd5c.reply("_Reply to Audio Message_");
+  }
+  let _0x1c0168 = await _0x55fd5c.quoted.download();
+  _0x55fd5c.sendMsg(_0x55fd5c.jid, _0x1c0168, {
+    'audiowave': Array.from({
+      'length': 0x1e
+    }, () => Math.floor(Math.random() * 0x64)),
+    'ptt': true,
+    'mimetype': "audio/mpeg"
+  }, 'audio');
+});
+nezuko({
+  'name': "tomp4",
+  'fromMe': isPublic,
+  'category': "converter",
+  'desc': "convert a document video to normal video"
+}, async ({
+  m: _0x3a81f6,
+  client: _0x50cb31,
+  args: _0xcb91fb
+}) => {
+  if (!_0x3a81f6.quoted || !(_0x3a81f6.quoted.message.videoMessage || _0x3a81f6.quoted.message.documentMessage)) {
+    return await _0x3a81f6.reply("_Reply to a video_");
+  }
+  await _0x3a81f6.reply("_Loading..._");
+  let _0x3b0e01 = await _0x3a81f6.quoted.download();
+  _0x50cb31.sendMessage(_0x3a81f6.jid, {
+    'video': _0x3b0e01
+  });
+});
+nezuko({
+  'name': 'toimage',
+  'fromMe': isPublic,
+  'category': "converter",
+  'desc': "convert a document image to normal image"
+}, async ({
+  m: _0x2d2d7e,
+  client: _0x36a500,
+  args: _0x5e07af
+}) => {
+  if (!_0x2d2d7e.quoted || !(_0x2d2d7e.quoted.message.imageMessage || _0x2d2d7e.quoted.message.documentMessage)) {
+    return await _0x2d2d7e.reply("_Reply to an image_");
+  }
+  await _0x2d2d7e.reply("_Converting..._");
+  let _0xfb01b1 = await _0x2d2d7e.quoted.download();
+  _0x36a500.sendMessage(_0x2d2d7e.jid, {
+    'image': _0xfb01b1
+  });
+});
+nezuko({
+  'name': 'caption',
+  'fromMe': isPublic,
+  'category': "converter",
+  'desc': "give custom captions"
+}, async ({
+  m: _0x1fffac,
+  client: _0x35c4ed,
+  args: _0x43545
+}) => {
+  if (!_0x1fffac.quoted || !(_0x1fffac.quoted.message.imageMessage || _0x1fffac.quoted.message.videoMessage || _0x1fffac.quoted.message.documentMessage)) {
+    return await _0x1fffac.reply("_Reply to photo or video_");
+  }
+  await _0x1fffac.reply("_Please Wait 2 secs...._");
+  let _0x300de0 = await _0x1fffac.quoted.download();
+  if (_0x1fffac.quoted.message.videoMessage) {
+    await _0x35c4ed.sendMessage(_0x1fffac.jid, {
+      'video': _0x300de0,
+      'mimetype': "video/mp4",
+      'caption': _0x43545
+    }, {
+      'quoted': _0x1fffac
+    });
+  } else if (_0x1fffac.quoted.message.imageMessage) {
+    await _0x35c4ed.sendMessage(_0x1fffac.jid, {
+      'image': _0x300de0,
+      'mimetype': "image/jpeg",
+      'caption': _0x43545
+    }, {
+      'quoted': _0x1fffac
+    });
+  }
+});
+nezuko({
+  'name': 'take',
+  'fromMe': isPublic,
+  'category': "converter",
+  'desc': "give custom captions"
+}, async ({
+  m: _0x1d1d5e,
+  client: _0x3bfa7a,
+  args: _0x8fa8d
+}) => {
+  if (!_0x1d1d5e.quoted.message.stickerMessage && !_0x1d1d5e.quoted.message.audioMessage && !_0x1d1d5e.quoted.message.imageMessage && !_0x1d1d5e.quoted.message.videoMessage) {
+    return _0x1d1d5e.reply("reply to a sticker/audio");
+  }
+  if (_0x1d1d5e.quoted.message.stickerMessage || _0x1d1d5e.quoted.message.imageMessage || _0x1d1d5e.quoted.message.videoMessage) {
+    _0x8fa8d = _0x8fa8d || info.STICKER_DATA;
+    let _0x232697 = await _0x1d1d5e.quoted.download();
+    return await _0x1d1d5e.sendMsg(_0x1d1d5e.jid, _0x232697, {
+      'packname': _0x8fa8d.split(/[|,;]/)[0x0] || _0x8fa8d,
+      'author': _0x8fa8d.split(/[|,;]/)[0x1]
+    }, "sticker");
+  } else {
+    if (_0x1d1d5e.quoted.message.audioMessage) {
+      const _0x233519 = {
+        'title': _0x8fa8d ? _0x8fa8d.split(/[|,;]/) ? _0x8fa8d.split(/[|,;]/)[0x0] : _0x8fa8d : info.INFO.split(/[|,;]/)[0x0] ? info.INFO.split(/[|,;]/)[0x0] : info.INFO,
+        'body': _0x8fa8d ? _0x8fa8d.split(/[|,;]/)[0x1] : info.INFO.split(/[|,;]/)[0x1],
+        'image': _0x8fa8d && _0x8fa8d.split(/[|,;]/)[0x2] ? _0x8fa8d.split(/[|,;]/)[0x2] : info.INFO.split(/[|,;]/)[0x2]
+      };
+      const _0x17f025 = await AudioData(await toAudio(await _0x1d1d5e.quoted.download()), _0x233519);
+      return await _0x1d1d5e.sendMsg(_0x1d1d5e.jid, _0x17f025, {
+        'mimetype': "audio/mpeg"
+      }, "audio");
+    }
+  }
+});
+nezuko({
+  'name': "black",
+  'fromMe': isPublic,
+  'category': "converter",
+  'desc': "give custom captions"
+}, async ({
+  m: _0x1de64f,
+  client: _0x5d4c6b,
+  args: _0x34a06e
+}) => {
+  if (!_0x1de64f.quoted || !(_0x1de64f.quoted.message.audioMessage || _0x1de64f.quoted.message.documentMessage)) {
+    return await _0x1de64f.reply("_Reply to Audio Message_");
+  }
+  let _0x544da8 = await _0x1de64f.quoted.download();
+  const _0x4a26f6 = await toVideo(_0x544da8);
+  _0x1de64f.sendMsg(_0x1de64f.jid, _0x4a26f6, {}, "video");
+});
