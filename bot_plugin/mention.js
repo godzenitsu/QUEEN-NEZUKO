@@ -1,5 +1,5 @@
 const { INFO, SUDO, IG } = require('../info.js');
-const { iris, isPublic } = require("../lib/commands.js");
+const { nezuko, isPublic } = require("../lib/commands.js");
 const { toAudio, getBuffer } = require("../lib/functions.js");
 
 const audios = [
@@ -10,8 +10,8 @@ const audios = [
 
 
 const images = [
-    "https://i.imgur.com/AnlriDv.jpeg",
-    "https://i.imgur.com/0UCRA2b.jpeg"
+    "https://i.imgur.com/imOAWEN.jpeg",
+    "https://i.imgur.com/imOAWEN.jpeg"
 ];
 
 const title = INFO.split(';')[1];
@@ -19,7 +19,7 @@ const body = "|| ◁ㅤ❚❚ㅤ▷||ㅤ ↻";
 const url = IG;
 const ptt = true;
 
-iris({ on: "text", fromMe: isPublic }, async ({ m, client, args }) => {
+nezuko({ on: "text", fromMe: isPublic }, async ({ m, client, args }) => {
     const sudo = SUDO.split(",");
     if (args.some(arg => sudo.includes(arg))) {
         const randomAudio = audios[Math.floor(Math.random() * audios.length)];
