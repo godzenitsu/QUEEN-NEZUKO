@@ -1,4 +1,4 @@
-const { iris, isPublic } = require("../lib/commands.js");
+const { nezuko, isPublic } = require("../lib/commands.js");
 const axios = require('axios');
 const { dare, truth, random_question } = require('../lib/truth-dare.js');
 const info = require('../info.js');
@@ -18,7 +18,7 @@ iris(
 );
 
 //---------------------------------------------------------------------------
-iris(
+nezuko(
     {
         name: "truth",
         fromMe: isPublic,
@@ -33,7 +33,7 @@ iris(
 );
 
 //---------------------------------------------------------------------------
-iris(
+nezuko(
     {
         name: "dare",
         fromMe: isPublic,
@@ -48,7 +48,7 @@ iris(
 );
 
 //---------------------------------------------------------------------------
-iris(
+nezuko(
     {
         name: "fact",
         fromMe: isPublic,
@@ -69,7 +69,7 @@ iris(
 );
 
 //---------------------------------------------------------------------------
-iris(
+nezuko(
     {
         name: "quotes",
         fromMe: isPublic,
@@ -83,7 +83,7 @@ iris(
             const { data } = await axios.get(`https://favqs.com/api/qotd`);
             const replyf = `
                 ╔════◇
-                ║ *🎗️Content:* ${data.quote.body}
+                ║ *⭐Content:* ${data.quote.body}
                 ║ *👤Author:* ${data.quote.author}
                 ║    
                 ╚════════════╝ `;
