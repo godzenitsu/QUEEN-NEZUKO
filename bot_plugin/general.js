@@ -1,5 +1,5 @@
 const {
-    iris,
+    nezuko,
     commands,
     isPublic
 } = require("../lib/commands.js");
@@ -9,7 +9,7 @@ const font = require("@viper-x/fancytext");
 // Type 1: Group Management Commands
 //───────────────────────────────────
 
-iris({
+nezuko({
     name: "mute",
     fromMe: isPublic,
     desc: "Mutes the group.",
@@ -20,7 +20,7 @@ iris({
     return await m.reply("_Group messages restricted to admins._");
 });
 
-iris({
+nezuko({
     name: "unmute",
     fromMe: isPublic,
     desc: "Unmutes the group",
@@ -31,7 +31,7 @@ iris({
     return await m.reply("_Group messages unrestricted._");
 });
 
-iris({
+nezuko({
     name: "promote",
     fromMe: isPublic,
     desc: "Promotes a user to admin",
@@ -52,7 +52,7 @@ iris({
     }
 });
 
-iris({
+nezuko({
     name: "demote",
     fromMe: isPublic,
     desc: "Demotes a user from admin",
@@ -76,7 +76,7 @@ iris({
 // Type 2: Group Actions
 //────────────────────────
 
-iris({
+nezuko({
     name : "left",
     fromMe: true,
     category : "group",
@@ -88,7 +88,7 @@ iris({
     await client.groupLeave(m.jid);
 });
 
-iris({
+nezuko({
     name : "invite",
     fromMe: true,
     category : "group",
@@ -99,7 +99,7 @@ iris({
     await m.reply(`_Group invite link: https://chat.whatsapp.com/${response}_`);
 });
 
-iris({
+nezuko({
     name : "revoke",
     fromMe: true,
     category : "group",
@@ -110,7 +110,7 @@ iris({
     await m.reply("_The group invite link has been revoked._");
 });
 
-iris({
+nezuko({
     name : "join",
     fromMe: true,
     category : "group",
