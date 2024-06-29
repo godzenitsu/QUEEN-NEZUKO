@@ -1,68 +1,65 @@
 {
-  "name": "QUEEN-NEZUKO",
-  "version": "1.2.7",
-  "description": "Simple lightweight whatsapp bot",
-  "logo": "https://telegra.ph/file/4140ee2f06cbb7b31c0de.jpg",
-  "keywords": ["whatsapp", "bot", "md", "multi-device"],
-  "repository": "https://github.com/godzenitsu/QUEEN-NEZUKO-",
-  "stack": "container",
+  "name": "𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨",
+  "description": "Queen-Nezuko has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️",
+  "logo": "https://i.imgur.com/imOAWEN.jpeg",
+  "keywords": ["queennezuko", "bot", "whatsapp bot", "multi device", "godzenitsu"],
+  "success_url": "/",
+
   "env": {
+    "OWNER": {
+      "description": "Put the number here.",
+      "required": true
+    },  
+
     "SESSION_ID": {
-      "description": "paste Your Session ID",
+      "description": "Enter session-id here",
+      "required": false
+    },
+
+  
+
+    "PREFIX": {
+      "description": "Bot prefix (.,/,@)",
+      "required": false
+ },
+
+
+
+    "LOGO": {
+      "description": "Bot logo",
+      "required": false
+ },
+
+
+    
+    "AUTO_VOICE": {
+      "description": "Bot Voice",
+      "required": false
+ },
+    
+
+    
+    "ONLY_GROUP": {
+      "description": "Work on only groups",
       "required": true
     },
-    "HANDLERS": {
-      "description": "Enter Prefix For Commands",
-      "required": true,
-      "value": "."
+
+
+    "ONLY_ME": {
+      "description": "Work on only You",
+      "required": true
     },
-     "HKEY": {
-      "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
-      "required": true,
-      "value": ""
-    },
-     "HAPP": {
-      "description": "Put the Heroku app name, same as above entered",
-      "required": true,
-      "value": ""
-    },
-    "SUDO": {
-      "description": "Enter Numbers With Country Code Without + Separated With , To Add More Numbers",
-      "required": true,
-      "value": "917907387121"
-    },
-    "INFO": {
-      "description": "Enter the Type of pic & ownername & botname u want",
-      "required": false,
-      "value": "ɴᴇᴢᴜᴋᴏ-ᴍᴅ;ᴢᴇɴɪᴛꜱᴜʜʜ;https://graph.org/file/3879cf1910f65bd8457d7.jpg"
-    },
-    "AUTO_STATUS_VIEW": {
-      "description": "true or false",
-      "required": false,
-      "value": "true"
-    },
-    "ALWAYS_ONLINE": {
-      "description": "true or false",
-      "required": false,
-      "value": "true"
-    },
-    "MODE": {
-      "description": "Enter Your Mode Type public For Public Otherwise Type private",
-      "required": false,
-      "value": "public"
-    },
-    "STICKER_DATA": {
-      "description": "STICKER_DATA",
-      "required": false,
-      "value": "ɴᴇᴢᴜᴋᴏ;ᴢᴇɴɪᴛꜱᴜʜʜʜ🌈"
-    }
-  },
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-    }
-  ]
-  }
+    
+    "ALIVE": {
+      "description": "Put your alive message.",
+      "required": true
+    }   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-22"
+}
