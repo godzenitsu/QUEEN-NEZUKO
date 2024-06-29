@@ -51,9 +51,4 @@
   <img src="https://i.ibb.co/KNnhcvX/bmc-button.png" alt="Buy Me Coffee" height="40" width="150" style="margin-left: 60px;">
 </a>
 
-  ### ᴛʜᴀɴᴋs ᴛᴏ
-- [LOKI❤️](https://github.com/Loki-Xer) <br>
-- [X-Electra](https://github.com/X-Electra) for [X-Asena](https://github.com/X-Electra/X-Asena)
-- AND THANKZ TO MEHH!!
-<br><br>
-
+  
