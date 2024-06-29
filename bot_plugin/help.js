@@ -48,7 +48,7 @@ nezuko({
           return _0x1accab.reply("*command : " + _0xf475e1.trim() + "*\n*description : " + _0x3484a0.desc.toLowerCase() + '*');
         }
       }
-      return _0x1accab.reply(font.tiny("_Cmd Not Found :( _"));
+      return _0x1accab.reply(font.tiny("*_Plugin Not :( _*"));
     } else {
       let _0x2ea826 = "┌⟝———ᙍ ɪɴꜰᴏ ᙊ\n│ *ʙᴏᴛ-ɴᴀᴍᴇ* : " + INFO.split(';')[0x0] + "\n│ *ᴘʟᴜɢɪɴs* : " + commands.length + "\n│ *ʜᴀɴᴅʟᴇʀ* : _[ " + HANDLERS + " ]_\n│ *ᴠᴇʀsɪᴏɴ* : 1.2.7\n│ *ᴍᴏᴅᴇ* : " + MODE + "\n│ *ᴜᴘᴛɪᴍᴇ* : " + (await _0x1accab.uptime()) + "\n│ *ᴛʏᴘᴇ-sᴄʀɪᴘᴛ* : ɴᴏᴅᴇ_ᴊs ᴀɴᴅ ᴊᴀᴠᴀꜱᴄʀɪᴩᴛ\n└⟝————ᙍᙊ\n " + readMore + "\n";
       let _0x206c3c = [];
