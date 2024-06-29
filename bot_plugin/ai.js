@@ -64,7 +64,7 @@ nezuko({
 });
 
 // AI command: dalle
-iris({
+nezuko({
   'name': "dalle",
   'fromMe': isPublic,
   'desc': "an ai",
@@ -100,7 +100,7 @@ iris({
   }
 });
 // AI command: mathai
-iris({
+nezuko({
   'name': "mathai",
   'fromMe': isPublic,
   'desc': "an ai",
@@ -137,7 +137,7 @@ iris({
 });
 
 // AI command: bardai
-iris({
+nezuko({
   name: "bardai",
   fromMe: isPublic,
   desc: "an ai",
@@ -173,7 +173,7 @@ iris({
 });
 
 // AI command: blackboxai
-iris({
+nezuko({
   'name': "blackboxai",
   'fromMe': isPublic,
   'desc': "an ai",
@@ -209,7 +209,7 @@ iris({
   }
 });
 // AI command: photoleapai
-iris({
+nezuko({
   name: "photoleapai",
   fromMe: isPublic,
   desc: "an ai",
@@ -245,7 +245,7 @@ iris({
 });
 
 // AI command: lamaai
-iris({
+nezuko({
   name: "lamaai",
   fromMe: isPublic,
   desc: "an ai",
@@ -281,7 +281,7 @@ iris({
 });
 
 // AI command: gemini
-iris({
+nezuko({
   'name': "gemini",
   'fromMe': isPublic,
   'desc': "an ai",
