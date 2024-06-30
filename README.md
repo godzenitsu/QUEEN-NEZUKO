@@ -1,7 +1,7 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 <div align="center" class= "main"> 
   <img src="https://i.imgur.com/F7EUx9f.jpeg" width="300" height="300"/>
-  <h1>N E Z U K O- ＭＤ</h1>
+  <h1>N E Z U K O- M D</h1>
 
 <a href="https://github.com/godzenitsu"><img title="Creator" src="https://img.shields.io/badge/Creator-ZENITSU-red.svg?style=for-the-badge&logo=github"></a>
 <br>
