@@ -95,9 +95,9 @@ async function connectToWA() {
 
             console.log('Installing plugins 🔌... ')
             const path = require('path');
-            fs.readdirSync("./plugins/").forEach((plugin) => {
+            fs.readdirSync("./Plugins/").forEach((plugin) => {
                 if (path.extname(plugin).toLowerCase() == ".js") {
-                    require("./plugins/" + plugin);
+                    require("./Plugins/" + plugin);
                 }
             });
             console.log('Plugins installed ✅')
