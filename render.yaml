@@ -1,0 +1,35 @@
+services:
+  - type: web
+    name: QUEEN-NEZUKO
+    env: node
+    branch: main
+    repo: https://github.com/godzenitsu/Queen-Nezuko.git
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    autoDeploy: false
+    envVars:
+      - key: OWNER
+        sync: false
+      - key: ALIVE
+        value: IM ALIVE
+      - key: ALWAYS_ONLINE
+        value: true
+      - key: AUTO_READ_STATUS
+        value: true
+      - key: FOOTER
+        value: Gᴏᴅ-Zᴇɴɪᴛꜱᴜ;Qᴜᴇᴇɴ-Nᴇᴢᴜᴋᴏ;https://graph.org/file/3879cf1910f65bd8457d7.jpg
+      - key: PREFIX
+        value:!
+      - key: AUTO_VOICE
+        value: true
+      - key: LOGO
+        value: https://i.imgur.com/imOAWEN.jpeg
+      - key: ONLY_ME
+        value: true
+      - key: ONLY_GROUP
+        value: false
+       - key: DATABASE_URL
+        sync: false
+      - key: ADDRESSES
+        value: 
