@@ -49,6 +49,10 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.buymeacoffee.com/safeershafo">
   <img src="https://i.ibb.co/KNnhcvX/bmc-button.png" alt="Buy Me Coffee" height="40" width="150" style="margin-left: 60px;">
+
+<a href='https://kamado-nezuko-web.vercel.app/' target="_blank"><img alt='BOT WEB' src='https://img.shields.io/badge/BOT_WEB-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+
 </a>
+
 
   
