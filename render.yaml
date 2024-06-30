@@ -8,7 +8,7 @@ services:
     startCommand: npm start
     plan: free
     autoDeploy: true
-    envVars: -
+    envVars:
       - key: OWNER
         sync: false
       - key: ALIVE
