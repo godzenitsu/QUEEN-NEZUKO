@@ -32,4 +32,4 @@ services:
       - key: DATABASE_URL
         sync: false
       - key: ADDRESSES
-        sync: 
+        sync: false
