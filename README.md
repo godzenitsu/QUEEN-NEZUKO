@@ -52,6 +52,11 @@
 
 <a href='https://kamado-nezuko-web.vercel.app/' target="_blank"><img alt='BOT WEB' src='https://img.shields.io/badge/BOT_WEB-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
+### ᴛʜᴀɴᴋs ᴛᴏ
+- [AYOOH](https://github.com/ayooh-me)<br>
+- [EYPZ](https://github.com/sataniceypz) <br>
+- [LOKI](https://github.com/Loki-Xer)
+<br><br>
 </a>
 
 
