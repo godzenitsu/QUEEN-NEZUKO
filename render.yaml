@@ -29,7 +29,7 @@ services:
         value: true
       - key: ONLY_GROUP
         value: false
-       - key: DATABASE_URL
+      - key: DATABASE_URL
         sync: false
       - key: ADDRESSES
-        value: 
+        sync: 
