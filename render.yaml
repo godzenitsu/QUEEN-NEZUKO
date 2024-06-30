@@ -20,7 +20,7 @@ services:
       - key: FOOTER
         value: Gᴏᴅ-Zᴇɴɪᴛꜱᴜ;Qᴜᴇᴇɴ-Nᴇᴢᴜᴋᴏ;https://graph.org/file/3879cf1910f65bd8457d7.jpg
       - key: PREFIX
-        value:!
+        value: !
       - key: AUTO_VOICE
         value: true
       - key: LOGO
