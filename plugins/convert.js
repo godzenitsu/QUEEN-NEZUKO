@@ -1,5 +1,5 @@
  const config = require('../config')
-const { nezuko, commands } = require('../command')
+const { cmd, commands } = require('../command')
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')	
 const googleTTS = require("google-tts-api");
 const { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter");
@@ -82,16 +82,15 @@ function toVideo(buffer, ext) {
 
 
 
-nezuko({
+cmd({
             pattern: "tts",
-            react: "🎗️",
-            desc: "text to speech.",
+            react: "💭",
+            desc: "q to speech.",
             category: "convert",
             filename: __filename,
             use: '<Hii,this is Nezuko>',
        },
-async(conn, mek, m,{from, l, quoted, body, isNezuko, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname,  isZenitsugod, isZenitsu, isZenitsux, isZen, isMe,isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-if(!isOwner && !isZenitsu && !isZenitsux && !isZen && !isZenitsugod && !isMe)return;
+
     try{
         async(mek, m, q) => {
             if (!q) return reply('Please give me Sentence to change into audio.')
@@ -121,16 +120,16 @@ l(e)
 
 
 
-nezuko({
+cmd({
     pattern: "attp",
-    react: "⭐",
+    react: "✨",
     alias: ["texttogif"],
     desc: "convert text to gift",
     category: "convert",
     use: '.attp HI',
     filename: __filename
 },
-async(conn, mek, m,{from, l, quoted, body, isNezuko, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 if(!q) return await reply()
 let bufff = await getBuffer("https://vihangayt.me/maker/text2gif?q=" + q)
@@ -142,7 +141,7 @@ l(e)
 })
 
             
-nezuko({
+cmd({
     pattern: "toptt",
     react: "🔊",
     alias: ["toaudio"],
@@ -151,7 +150,7 @@ nezuko({
     use: '.toptt <Reply to video>',
     filename: __filename
 },
-async(conn, mek, m,{from, l, quoted, body, isNezuko, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
     let isquotedvid = m.quoted ? (m.quoted.type === 'videoMessage') : m ? (m.type === 'videoMessage') : false
     if(!isquotedvid) return await reply()
@@ -166,7 +165,7 @@ l(e)
 })       
 
 
-nezuko({
+cmd({
     pattern: "sticker",
     react: "🔮",
     alias: ["s","stic"],
@@ -175,7 +174,7 @@ nezuko({
     use: '.sticker <Reply to image>',
     filename: __filename
 },
-async(conn, mek, m,{from, l, quoted, body, isNezuko, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
     const isQuotedViewOnce = m.quoted ? (m.quoted.type === 'viewOnceMessage') : false
     const isQuotedImage = m.quoted ? ((m.quoted.type === 'imageMessage') || (isQuotedViewOnce ? (m.quoted.msg.type === 'imageMessage') : false)) : false
