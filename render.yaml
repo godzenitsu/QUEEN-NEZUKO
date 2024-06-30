@@ -7,8 +7,8 @@ services:
     buildCommand: npm install
     startCommand: npm start
     plan: free
-    autoDeploy: false
-    envVars:
+    autoDeploy: true
+    envVars: -
       - key: OWNER
         sync: false
       - key: ALIVE
@@ -18,7 +18,7 @@ services:
       - key: AUTO_READ_STATUS
         value: true
       - key: FOOTER
-        value: Gᴏᴅ-Zᴇɴɪᴛꜱᴜ;Qᴜᴇᴇɴ-Nᴇᴢᴜᴋᴏ;https://graph.org/file/3879cf1910f65bd8457d7.jpg
+        value: Gᴏᴅ-Zᴇɴɪᴛꜱᴜ
       - key: PREFIX
         value: !
       - key: AUTO_VOICE
