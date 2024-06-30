@@ -1,13 +1,13 @@
 const config = require('../config')
 const fg = require('api-dylux');
 const l = console.log
-const { nezuko, commands } = require('../command')
+const { cmd, commands } = require('../command')
 const dl = require('@bochilteam/scraper')  
 const ytdl = require('youtubedl-core');
 const fs = require('fs-extra')
 var videotime = 60000 // 1000 min
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
-nezuko({
+cmd({
     pattern: "yts",
     alias: ["ytsearch"],
     use: '.yts lelena',
@@ -18,7 +18,7 @@ nezuko({
 
 },
 
-async(conn, mek, m,{from, l, quoted, body, isNezuko, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 if (!q) return reply('*Please give me words to search*')
 try {
@@ -39,7 +39,7 @@ await conn.sendMessage(from , { text:  mesaj }, { quoted: mek } )
 }
 })
 
-nezuko({
+cmd({
     pattern: "video",
     alias: ["ytvideo"],
     use: '.video lelena',
@@ -50,7 +50,7 @@ nezuko({
 
 },
 
-async(conn, mek, m,{from, l, quoted, body, isNezuko, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 if (!q) return reply('*Please give me quary to download*')
 let yts = require("yt-search")
@@ -80,7 +80,7 @@ await conn.sendMessage(from, { react: { text: '🎥', key: senda1.key }})
 }
 })
 
-nezuko({
+cmd({
     pattern: "song",
     alias: ["ytsong"],
     use: '.song lelena',
@@ -90,7 +90,7 @@ nezuko({
     filename: __filename
 },
 
-async(conn, mek, m,{from, l, quoted, body, isNezuko, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 if (!q) return reply('*Please give me quary to download*')
 let yts = require("yt-search")
