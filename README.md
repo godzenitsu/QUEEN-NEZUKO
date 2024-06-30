@@ -22,7 +22,7 @@
 
 2. 𝘚𝘤𝘢𝘯 𝘵𝘩𝘦 𝘘𝘙 𝘢𝘯𝘥 𝘤𝘰𝘱𝘺 𝘪𝘵
     <br>
-<a href='https://queen-nezuko-web.onrender.com' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://pink-venom-qr.onrender.com/' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 
 ### ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ
