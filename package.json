@@ -1,8 +1,8 @@
 {
 "scripts": {
 "start": "pm2 start index.js --deep-monitoring --attach --name nezuko-md",
-"stop": "pm2 stop wabot",
-"restart": "pm2 restart wabot"
+"stop": "pm2 stop nezuko-md",
+"restart": "pm2 restart nezuko-md"
 },
 "dependencies": {
 "@whiskeysockets/baileys": "git+https://github.com/VajiraTech/VAJIRA-BAILEYS.git",
