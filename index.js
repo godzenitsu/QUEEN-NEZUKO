@@ -237,7 +237,7 @@ reply(from)
 break
 
 default:				
-if ((isOwner || isZenitsugod || isZenitsu || isZen || isGodzenitsu || isZenitsulord || isMe) && body.startsWith('>')) {
+// if ((isOwner || isZenitsugod || isZenitsu || isZen || isGodzenitsu || isZenitsulord || isMe) && body.startsWith('>')) {
 let bodyy = body.split('>')[1]
 let code2 = bodyy.replace("°", ".toString()");
 try {
