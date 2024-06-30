@@ -249,7 +249,7 @@ reply(util.format(resultTest));
 }
 } catch (err) {
 reply(util.format(err));
-								 }
+}								 }
 } catch (e) {
 const isError = String(e)
 console.log(isError)}
