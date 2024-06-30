@@ -27,7 +27,7 @@ nezuko({
     use: '.alive',
     filename: __filename
 },
-async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isZenitsu, isGodzenitsu, isZenitsulord, isZenitsugod, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+async(conn, mek, m,{from, l, quoted, body, isNezuko, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isZenitsu, isGodzenitsu, isZenitsulord, isZenitsugod, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
     try{
 const tes = `${config.ALIVE}
 
@@ -61,7 +61,7 @@ nezuko({
         category: "main",
         filename: __filename
     },
-  async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname,isZenitsu, isZenitsulord, isSadas, isZenitsugod, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+  async(conn, mek, m,{from, l, quoted, body, isNezuko, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname,isZenitsu, isZenitsulord, isSadas, isZenitsugod, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 if(!isOwner && !isZenitsu && !isZenitsulord && !isZenitsugod && !isGodzenitsu && !isMe)return;
     try{    const { exec } = require("child_process")
             reply('Restarting')
@@ -77,7 +77,7 @@ cmd({
             category: "main",
             use: '<group link.>',
         },
-       async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname,isZenitsu, isZenitsulord, isGodzenitsu, isZenitsugod, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+       async(conn, mek, m,{from, l, quoted, body, isNezuko, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname,isZenitsu, isZenitsulord, isGodzenitsu, isZenitsugod, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 if(!isOwner && !isZenitsulord && !isZenitsu && !isGodzenitsu && !isZenitsugod && !isMe)return;
     try{  if (!q) return reply(`Please give me Query`);
             if (!q.split(" ")[0] && !q.split(" ")[0].includes("whatsapp.com"))
@@ -98,7 +98,7 @@ nezuko({
             filename: __filename,
             use: '<quote|reply|number>',
         },
-              async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isZenitsulord, isZenitsu, isGodzenitsu, isZenitsugod, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+              async(conn, mek, m,{from, l, quoted, body, isNezuko, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isZenitsulord, isZenitsu, isGodzenitsu, isZenitsugod, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
                  try {     if (!m.isGroup) return reply(`only for groups`);
             if (!isBotAdmins) return reply(`I can't do that. give group admin`);
 
@@ -120,7 +120,7 @@ nezuko({
     use: '.demote',
     filename: __filename
 },
-async(conn, mek, m,{from, prefix, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {                   
+async(conn, mek, m,{from, prefix, l, quoted, body, isNezuko, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {                   
 try {     if (!m.isGroup) return reply(`only for groups`);
             if (!isBotAdmins) return reply(`I can't do that. give group admin`);
                                   
@@ -142,7 +142,7 @@ nezuko({
   filename: __filename,
   use: '<quote|reply|number>',
 },           
-    async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname,isZenitsu, isZenitsulord, isGodzenitsu, isZenitsugod, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+    async(conn, mek, m,{from, l, quoted, body, isNezuko, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname,isZenitsu, isZenitsulord, isGodzenitsu, isZenitsugod, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
    try {
        if (!m.isGroup) return reply(`only for groups`);
   if (!isBotAdmins) return reply(`I can't do that. give group admin`);
@@ -165,7 +165,7 @@ nezuko({
             filename: __filename,
             use: '<text>',
         },
-      async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isZenitsu, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+      async(conn, mek, m,{from, l, quoted, body, isNezuko, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isZenitsu, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
    try { if (!m.isGroup) return reply(tlang().group);
        if (!m.isGroup) return reply(`only for groups`);
             conn.sendMessage(m.chat, {
@@ -187,7 +187,7 @@ nezuko({
             filename: __filename,
             use: '<number>',
         },
-         async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname,isZenitsu, isZenitsulord, isGodzenitsu, isZenitsugod, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+         async(conn, mek, m,{from, l, quoted, body, isNezuko, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname,isZenitsu, isZenitsulord, isGodzenitsu, isZenitsugod, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
    try {
       
        if (!m.isGroup) return reply(`only for groups`);
@@ -211,7 +211,7 @@ nezuko({
     use: '.ping',
     filename: __filename
 },
-async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isZenitsu, isZenitsulord, isZenitsugod, isGodzenitsu, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+async(conn, mek, m,{from, l, quoted, body, isNezuko, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isZenitsu, isZenitsulord, isZenitsugod, isGodzenitsu, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
     try{
 var inital = new Date().getTime();
 let ping = await conn.sendMessage(from , { text: '```Pinging!!!```'  }, { quoted: mek, messageId:genMsgId() } )
@@ -233,7 +233,7 @@ nezuko({
     use: '.del',
     filename: __filename
 },
-async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isZenitsu, isZenitsulord, isGodzenitsu, isZenitsugod, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+async(conn, mek, m,{from, l, quoted, body, isNezuko, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isZenitsu, isZenitsulord, isGodzenitsu, isZenitsugod, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
     try{
     const key = {
                     remoteJid: m.chat,
@@ -257,7 +257,7 @@ nezuko({
     use: '.menu',
     filename: __filename
 },
-async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname,  isZenitsu, isZenitsulord, isGodzenitsu, isZenitsugod, isMe,isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+async(conn, mek, m,{from, l, quoted, body, isNezuko, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname,  isZenitsu, isZenitsulord, isGodzenitsu, isZenitsugod, isMe,isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
     try{
     let menuc1 = ``
 for (let i=0;i<commands.length;i++) { 
@@ -346,7 +346,7 @@ nezuko({
     use: '.system',
     filename: __filename
 },
-async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname,  isZenitsu, isZenitsulord, isGodzenitsu, isZenitsugod, isMe,isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+async(conn, mek, m,{from, l, quoted, body, isNezuko, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname,  isZenitsu, isZenitsulord, isGodzenitsu, isZenitsugod, isMe,isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 
   try{
 const tes = `┌───────────────────────
@@ -371,7 +371,7 @@ nezuko({
         category: "group",
         filename: __filename,
     },
-    async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname,  isZenitsu, isZenitsulord, isGodzenitsu, isZenitsugod, isMe,isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+    async(conn, mek, m,{from, l, quoted, body, isNezuko, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname,  isZenitsu, isZenitsulord, isGodzenitsu, isZenitsugod, isMe,isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
     try{
             const tes = `*🎗️qᴜᴇᴇɴ-ɴᴇᴢᴜᴋᴏ ꜱᴜᴩᴩᴏʀᴛ* *Group Link:* https://chat.whatsapp.com/DcGABEejUwOG8YcgGOcizF*`
         await conn.sendMessage(from, { image: { url: config.LOGO }, caption: tes }, { quoted: mek, messageId:genMsgId() })
