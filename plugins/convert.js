@@ -90,6 +90,7 @@ cmd({
             filename: __filename,
             use: '<Hii,this is Nezuko>',
        },
+    async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe,isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 
     try{
         async(mek, m, q) => {
