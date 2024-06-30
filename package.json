@@ -5,7 +5,7 @@
 "restart": "pm2 restart wabot"
 },
 "dependencies": {
-"@whiskeysockets/baileys": "latest",
+"@whiskeysockets/baileys": "git+https://github.com/VajiraTech/VAJIRA-BAILEYS.git",
 "google-tts-api": "^2.0.2",
 "pino": "^7.0.5",
 "pm2": "^5.3.1",
