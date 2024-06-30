@@ -4,7 +4,6 @@ const {
   useMultiFileAuthState,
   DisconnectReason,
   jidNormalizedUser,
-  fetchLatestBaileysVersion,
   getContentType,
   Browsers,
   getAggregateVotesInPollMessage,
@@ -68,8 +67,7 @@ const port = process.env.PORT || 8000;
 async function connectToWA() {
   console.log("Connecting bot...");
   const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
-  var { version } = await fetchLatestBaileysVersion()
-  const latestWebVersion = () => {
+    const latestWebVersion = () => {
           let version
           try {
               let a = fetchJson('https://web.whatsapp.com/check-update?version=1&platform=web')
