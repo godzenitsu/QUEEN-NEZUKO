@@ -123,7 +123,7 @@ require("./plugins/" + plugin);
 });
 console.log('Plugins Loaded✅')
 console.log('Nezuko Is Alive☔')
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { text: `qᴜᴇᴇɴ ɴᴇᴢᴜᴋᴏ ᴄᴏɴɴᴇᴄᴛᴇᴅ ꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ!!•https://wa.me/+94772801923?text=ɴᴇᴢᴜᴋᴏ ɪꜱ ᴀʟɪᴠᴇ☁️` } ,{messageId:genMsgId()} )    
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { text: `𝐍𝐄𝐙𝐔𝐊𝐎 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄🎗️` } ,{messageId:genMsgId()} )    
 sleep(5000)
 
  
