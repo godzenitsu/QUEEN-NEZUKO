@@ -9,27 +9,5 @@ services:
     plan: free
     autoDeploy: true
     envVars:
-      - key: OWNER
-        sync: false
-      - key: ALIVE
-        value: IM ALIVE
-      - key: ALWAYS_ONLINE
-        value: true
-      - key: AUTO_READ_STATUS
-        value: true
-      - key: FOOTER
-        value: Gᴏᴅ-Zᴇɴɪᴛꜱᴜ
-      - key: PREFIX
-        value: !
-      - key: AUTO_VOICE
-        value: true
-      - key: LOGO
-        value: https://i.imgur.com/imOAWEN.jpeg
-      - key: ONLY_ME
-        value: true
-      - key: ONLY_GROUP
-        value: false
       - key: DATABASE_URL
-        sync: false
-      - key: ADDRESSES
         sync: false
