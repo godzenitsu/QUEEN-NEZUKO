@@ -45,20 +45,18 @@ function genMsgId() {
   //=========================================
 let previousLinkId = '1';
 //===================SESSION============================
-async function MakeSession() {
-    try {
-        console.log("Verifying Session...");
-        const {
-          data
-        } = await axios(`https://paste.c-net.org/${X.SESSION_ID.split(':')[1]}`);
-        await fs.writeFileSync("./auth_info_baileys/creds.json", JSON.stringify(data));
-        console.log("Creds Json Created Successfully✅");
-      } catch (err) {
-        console.log(err);
-      }
-}
-MakeSession();
-
+if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
+    if (X.SESSION_ID) {
+      const sessdata = X.SESSION_ID.replace("NEZUKO=", "")
+      const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
+      filer.download((err, data) => {
+        if (err) throw err
+        fs.writeFile(__dirname + '/auth_info_baileys/creds.json', data, () => {
+          console.log("Session download completed !!")
+        })
+      })
+    }
+  }
 // <<==========PORTS===========>>
 const express = require("express");
 const app = express();
