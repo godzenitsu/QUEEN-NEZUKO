@@ -152,18 +152,6 @@ const sender = mek.key.fromMe ? (conn.user.id.split(':')[0]+'@s.whatsapp.net' ||
 const senderNumber = sender.split('@')[0]
 const botNumber = conn.user.id.split(':')[0]
 const pushname = mek.pushName || 'No Name'
-const lordzenitsu = '917907387121'
-const isZenitsux = zenitsux?.includes(senderNumber)
-const zenitsux = '9744108970'
-const isZenitsu = zenitsu?.includes(senderNumber)
-const zenitsu = '9605612983'
-const isZenitsulord = zenitsulord?.includes(senderNumber)
-const zenitsulord = '9744108970'
-const isGodzenitsu = godzenitsu?.includes(senderNumber)
-const godzenitsu = '7907387121'
-const isZenitsugod = zenitsugod?.includes(senderNumber)
-const zenitsugod = '9605612983'
-const isZen = zen?.includes(senderNumber)
 const isMe = botNumber?.includes(senderNumber)	
 const isOwner = ownerNumber?.includes(senderNumber) 
 const botNumber2 = await jidNormalizedUser(conn.user.id);
@@ -199,39 +187,9 @@ conn.sendFileUrl = async(jid, url, caption, quoted, options = {}) => {
   }
 }
 
-	if(isZenitsux){
-    if(!isreaction){
- await conn.sendMessage(from, { react: { text: '👨🏻‍💻', key: mek.key } });
-    }
-} else	if(isZenitsu){
-  if(!isreaction){
-await conn.sendMessage(from, { react: { text: '🫶', key: mek.key } });
-  }
-} else	if(isZenitsulord){
-  if(!isreaction){
-await conn.sendMessage(from, { react: { text: '🌻', key: mek.key } });
-  }
-} else	if(isGodzenitsu){
-  if(!isreaction){
-await conn.sendMessage(from, { react: { text: '☁️', key: mek.key } });
-  }
-	}else if(isOwner){
-    if(!isreaction){
-  await conn.sendMessage(from, { react: { text: '🤎', key: mek.key } });
-    }
-	}else if(isZenitsugod){
-    if(!isreaction){
-  await conn.sendMessage(from, { react: { text: '🎗️', key: mek.key } });
-    }
-	}
-      else if(isZen){
-    if(!isreaction){
-  await conn.sendMessage(from, { react: { text: '⭐', key: mek.key } });
-    }
-	}
 
-if (!isMe && !isZen && !isZenitsugod && !isZenitsulord && !isGodzenitsu && !isZenitsux && !isZenitsu && !isOwner && !isGroup && config.ONLY_GROUP == 'true') return 
-if (!isMe && !isZen && !isZenitsugod && !isZenitsulord && !isGodzenitsu && !isZenitsux && !isZenitsu && !isOwner && config.ONLY_ME == 'true') return 
+//if (!isMe && !isZen && !isZenitsugod && !isZenitsulord && !isGodzenitsu && !isZenitsux && !isZenitsu && !isOwner && !isGroup && config.ONLY_GROUP == 'true') return 
+//if (!isMe && !isZen && !isZenitsugod && !isZenitsulord && !isGodzenitsu && !isZenitsux && !isZenitsu && !isOwner && config.ONLY_ME == 'true') return 
 //==================================plugin map================================
 const events = require('./command')
 const cmdName = isCmd ? body.slice(1).trim().split(" ")[0].toLowerCase() : false;
