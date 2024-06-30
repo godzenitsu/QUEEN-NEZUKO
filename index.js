@@ -39,7 +39,7 @@ const {
 } = require('megajs')
 const path = require('path')
 const msgRetryCounterCache = new NodeCache()
-const prefix = '!'
+const prefix = '.'
 const ownerNumber = ['917907387121']
 //===================SESSION============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
