@@ -156,17 +156,17 @@ const sender = mek.key.fromMe ? (conn.user.id.split(':')[0]+'@s.whatsapp.net' ||
 const senderNumber = sender.split('@')[0]
 const botNumber = conn.user.id.split(':')[0]
 const pushname = mek.pushName || 'No Name'
-const zenitsu = '917907387121'
+const lordzenitsu = '917907387121'
 const isZenitsux = zenitsux?.includes(senderNumber)
-const zenitsu = '9744108970'
+const zenitsux = '9744108970'
 const isZenitsu = zenitsu?.includes(senderNumber)
 const zenitsu = '9605612983'
 const isZenitsulord = zenitsulord?.includes(senderNumber)
-const zenitsu = '9744108970'
+const zenitsulord = '9744108970'
 const isGodzenitsu = godzenitsu?.includes(senderNumber)
-const zenitsu = '7907387121'
+const godzenitsu = '7907387121'
 const isZenitsugod = zenitsugod?.includes(senderNumber)
-const zenitsu = '9744195375'
+const zenitsugod = '9605612983'
 const isZen = zen?.includes(senderNumber)
 const isMe = botNumber?.includes(senderNumber)	
 const isOwner = ownerNumber?.includes(senderNumber) 
@@ -209,7 +209,7 @@ conn.sendFileUrl = async(jid, url, caption, quoted, options = {}) => {
     }
 } else	if(isZenitsu){
   if(!isreaction){
-await conn.sendMessage(from, { react: { text: '🌚', key: mek.key } });
+await conn.sendMessage(from, { react: { text: '🫶', key: mek.key } });
   }
 } else	if(isZenitsulord){
   if(!isreaction){
