@@ -44,7 +44,7 @@ const ownerNumber = ['917907387121']
 //===================SESSION============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
     if (config.SESSION_ID) {
-      const sessdata = config.SESSION_ID.replace("Nezuko~", "")
+      const sessdata = config.SESSION_ID.replace("Queen-Nezuko~", "")
       const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
       filer.download((err, data) => {
         if (err) throw err
