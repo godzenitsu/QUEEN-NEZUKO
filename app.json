@@ -6,11 +6,30 @@
   "success_url": "/",
 
   "env": {
-    "SESSION_ID": {
-      "description": "Put the SESSION ID here.",
-      "required": true
+    "OWNER": {
+      "description": "Put the number here.",
+      "required": falsel
     },  
-  },
+
+    "SESSION_ID": {
+      "description": "Enter session-id here",
+      "required": false
+    },
+
+  
+
+    "PREFIX": {
+      "description": "Bot prefix (.,/,@)",
+      "required": false
+ },
+
+
+   
+    "ALIVE": {
+      "description": "Put your alive message.",
+      "required": true
+    }   
+},
 
      "buildpacks": [
         {
