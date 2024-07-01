@@ -6,55 +6,10 @@
   "success_url": "/",
 
   "env": {
-    "OWNER": {
-      "description": "Put the number here.",
+    "SESSION_ID": {
+      "description": "Put the SESSION ID here.",
       "required": true
     },  
-
-    "SESSION_ID": {
-      "description": "Enter session-id here",
-      "required": false
-    },
-
-  
-
-    "PREFIX": {
-      "description": "Bot prefix (.,/,@)",
-      "required": false
- },
-
-
-
-    "LOGO": {
-      "description": "Bot logo",
-      "required": false
- },
-
-
-    
-    "AUTO_VOICE": {
-      "description": "Bot Voice",
-      "required": false
- },
-    
-
-    
-    "ONLY_GROUP": {
-      "description": "Work on only groups",
-      "required": true
-    },
-
-
-    "ONLY_ME": {
-      "description": "Work on only You",
-      "required": true
-    },
-    
-    "ALIVE": {
-      "description": "Put your alive message.",
-      "required": true
-    }   
-},
 
      "buildpacks": [
         {
