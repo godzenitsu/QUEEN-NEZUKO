@@ -9,5 +9,8 @@ function convertToBool(text, fault = 'true') {
 
 
 module.exports = {
-    SESSION_ID: false
+SESSION_ID: process.env.SESSION_ID === undefined ? '' : process.env.SESSION_ID,
+ALIVE: process.env.ALIVE === undefined ? `Hello im alive now !!` : process.env.ALIVE,
+OWNER: process.env.OWNER === undefined ? `9179077387121` : process.env.OWNER,
+PREFIX: process.env.PREFIX === undefined ? '@' : process.env.PREFIX,
 };
