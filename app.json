@@ -8,7 +8,7 @@
   "env": {
     "OWNER": {
       "description": "Put the number here.",
-      "required": falsel
+      "required": false
     },  
 
     "SESSION_ID": {
