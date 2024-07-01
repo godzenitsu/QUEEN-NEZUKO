@@ -8,12 +8,12 @@
   "env": {
     "OWNER": {
       "description": "Put the number here.",
-      "required": false
+      "required": true
     },  
 
     "SESSION_ID": {
       "description": "Enter session-id here",
-      "required": false
+      "required": true
     },
 
   
@@ -27,7 +27,7 @@
    
     "ALIVE": {
       "description": "Put your alive message.",
-      "required": true
+      "required": false
     }   
 },
 
